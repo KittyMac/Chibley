@@ -24,7 +24,7 @@
         "repositoryURL": "https://github.com/KittyMac/Figurehead.git",
         "state": {
           "branch": "main",
-          "revision": "0795fae77f550b2202ca4da66748059e56d1b059",
+          "revision": "dac26fd24ec1230009e9d46cc74ad2dfaa92fb6c",
           "version": null
         }
       },
@@ -60,8 +60,8 @@
         "repositoryURL": "https://github.com/KittyMac/Picaroon.git",
         "state": {
           "branch": null,
-          "revision": "160368209f9d0e8e538fdc637107cb01f2f2df28",
-          "version": "0.3.12"
+          "revision": "eb13f24cd68576258cf0afa480d916dcb963bfd5",
+          "version": "0.3.13"
         }
       },
       {

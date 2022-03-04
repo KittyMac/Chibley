@@ -5,7 +5,7 @@ function sendIfModified(command, ifModifiedString, blocking, callback) {
     xhttp.onreadystatechange = function() {
         if (this.readyState == 4) {
 			if (this.status == 503) {
-				window.location.href = "/"
+				window.location.href = "./"
 			} else {
                 if (this.status != 200) {
                     if (this.responseText != undefined && this.responseText.length > 0) {
@@ -21,7 +21,7 @@ function sendIfModified(command, ifModifiedString, blocking, callback) {
 			}
         }
     };
-    xhttp.open("POST", "/");
+    xhttp.open("POST", "./");
     
     let sessionId = sessionStorage.getItem("Session-Id");
     if (sessionId != undefined) {
