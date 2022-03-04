@@ -8,7 +8,7 @@ if [ "$(uname)" == "Darwin" ]; then
     
     set -e
     
-    killall PICAROONTEMPLATE || true
+    killall Chibley || true
     
     ./CopyDependencyResources.sh
     

@@ -39,7 +39,7 @@ RUN wget -qO- $SWIFTURL | tar -xvz -C swift
 
 
 # 2. build our swift program
-WORKDIR /root/PICAROONTEMPLATE
+WORKDIR /root/Chibley
 COPY ./Makefile ./Makefile
 COPY ./Package.swift ./Package.swift
 COPY ./meta ./meta
@@ -78,4 +78,4 @@ ENV SWIFTSLIMURL="http://www.chimerasw.com/swift/swiftslim-5.3-$TARGETARCH$TARGE
 RUN mkdir -p swift
 RUN wget -qO- $SWIFTSLIMURL | tar -xvz -C swift
 
-COPY --from=builder /root/PICAROONTEMPLATE/.build/release/PICAROONTEMPLATE .
+COPY --from=builder /root/Chibley/.build/release/Chibley .

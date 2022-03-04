@@ -1,6 +1,11 @@
 #define PAMPHLET_PREPROCESSOR
 
 #include <./figurehead/figurehead.html>
+#include <./endeavour/endeavour.html>
+
+#macro PARAGRAPH(CONTENT)
+ELEMENT(LATO(1.2)FBLACK()MARGIN(1,0,0.5,0),CONTENT)
+#endmacro
 
 <!doctype html>
 <html>
@@ -8,7 +13,7 @@
     <meta charset="utf-8">
     <meta name="apple-mobile-web-app-capable" content="yes">
     <meta name="viewport" content="user-scalable=no,width=device-width,initial-scale=1.0,viewport-fit=cover">
-    <title>PicaroonTemplate</title>
+    <title>Chibley</title>
     <link rel="manifest" href="/public/manifest.json">
     <link rel="apple-touch-icon" sizes="192x192" href="/public/icon192.png">
     <link rel="apple-touch-icon" sizes="512x512" href="/public/icon512.png">
@@ -27,6 +32,7 @@
     </script>
         
     <script src="script.combined.js"></script>
+    <script src="public/endeavour/editor.bundle.js"></script>
     
     <style>
         body {
@@ -46,16 +52,188 @@
 			<h1>This app requires Javascript to be enabled.</h1>
 		</div>
 	</noscript>
-            
+    
+    
+    
     ELEMENT(GROW()START()CLIPS()VSTACK(),
-        GITHUB("https://github.com/KittyMac/PicaroonTemplate",#535457)
+        GITHUB("https://github.com/KittyMac/Chibley",#535457)
+        
+        ELEMENT(HSTACK()MINHEIGHT(5)PCTWIDTH(100)MARGIN(1,0,2,0),
+            LINK("https://github.com/KittyMac/Chibley",
+                IMAGE(SIZEALL(5,5)MARGIN(0,1,1,1),/public/icon192.png)
+            )
+            ELEMENT(VSTACK()GROW()MINHEIGHT(5),
+                HEADER2(Chibley)
+                TEXT(Simple API for coding practice)
+            )
+        )
+        
+        ELEMENT(VSTACK()MARGIN(1,1,1,1),
+            
+            HEADER(Simple API Calls)
+            
+            PARAGRAPH(
+            Calls are made to the API by sending a JSON payload in the HTTP request. A simple version of this can be
+            achieved by using the curl command.
+            )
+            
+            ID_ELEMENT(code0,ITEM_OUTLINE()MARGIN(0.5,0,0.5,0),)
+            
+            ID_ELEMENT(code1,ITEM_OUTLINE()MARGIN(0.5,0,0.5,0),)
+            
+            ID_ELEMENT(code2,ITEM_OUTLINE()MARGIN(0.5,0,0.5,0),)
+            
+            ELEMENT(HEIGHT(2),)
+            
+            HEADER(Persistent Session API Calls)
+            
+            PARAGRAPH(
+            Chibley is a straight-forward actor/model http server. When you open a connection to the server&#x002C; an actor
+            is created to service your requests. The actor will stay alive so long as you are interacting with it&#x002C; and
+            will be destroyed when you've stopped interacting with it for a while. During this time server-side
+            state can be mutated by sending the Session-Id back to the server to reference server-side actor associated
+            with this session.
+            )
+            
+            ID_ELEMENT(code3,ITEM_OUTLINE()MARGIN(0.5,0,0.5,0),)
+            
+            ID_ELEMENT(code4,ITEM_OUTLINE()MARGIN(0.5,0,0.5,0),)
+            
+            ID_ELEMENT(code5,ITEM_OUTLINE()MARGIN(0.5,0,0.5,0),)
+            
+            ID_ELEMENT(code6,ITEM_OUTLINE()MARGIN(0.5,0,0.5,0),)
+            
+            ID_ELEMENT(code7,ITEM_OUTLINE()MARGIN(0.5,0,0.5,0),)
+            
+            ID_ELEMENT(code8,ITEM_OUTLINE()MARGIN(0.5,0,0.5,0),)
+        )
+        
+        
+        
     )
         
     ID_ELEMENT(alertsContainer,FULLSCREEN()ABSOLUTE()BACKGROUND(0,0,0,0.5)CENTER()CLIPS()HIDE(),)
         
     <script>
         InitFigurehead();
-        alert("Hello World!");
+        
+        let code0 =
+`
+// Simple curl test to ensure the API is working
+curl -X POST -H "Content-Type: application/json" -d '{"service":"PokemonService","command":"list"}' http:${'/'}/www.swift-linux.com/Chibley
+`;
+
+        let code1 =
+`
+// Request a list of all pokémon
+{
+    "service":"PokemonService",
+    "command":"list"
+}
+`;
+
+        let code2 =
+`
+// Request a subset of pokémon, supplying a JSONPath query selector
+// This selector uses a regex to return only pokémon whose name 
+// begins with the letter B
+{
+    "service":"PokemonService",
+    "command":"list",
+    "path":"$..[?(@.name =~ /^B/i)]"
+}
+`;
+
+        let code3 =
+`
+// Session persistance is achieved using the Session-Id http header.
+// Send a request without a Session-Id and a new session will be started on the server and
+// its Session-Id will be sent to you. To send more requests to the same session, simply
+// send the Session-Id back to the server in the HTTP headers
+//
+// Sample HTTP response
+HTTP/1.1 200 OK
+Set-Cookie:CB7A4CDB-38B4-4923-B1A9-6C06DE9D8921=9C12B0A1-DFE9-4C09-ADF4-FC851E62BF04; HttpOnly
+Session-Id:8C6394EA-BB4A-48F5-8C52-544F6B013BD0
+Service-Response:null
+Last-Modified:2022-03-04 05:03:47 +0000
+Connection:keep-alive
+Content-Type:application/json
+Content-Length:61261
+...
+`;
+
+        let code4 =
+`
+// Capture a pokémon. The pokémon will be added to the collection of pokémon associated with this session.
+{
+    "service":"PokemonService",
+    "command":"capture",
+    "number":"#37"
+}
+`;
+
+        let code5 =
+`
+// Release a pokémon. The pokémon will be removed from the collection associated with this session.
+{
+    "service":"PokemonService",
+    "command":"release",
+    "number":"#37"
+}
+`;
+
+        let code6 =
+`
+// Release a pokémon. The pokémon will be removed from the collection associated with this session.
+{
+    "service":"PokemonService",
+    "command":"release",
+    "number":"#37"
+}
+`;
+
+        let code7 =
+`
+// Evolve a pokémon. The pokémon will be changed to its next evolution (assuming that is possible)
+{
+    "service":"PokemonService",
+    "command":"evolve",
+    "number":"#37"
+}
+`;
+
+        let code8 =
+`
+// List the pokémon in your collection
+{
+    "service":"PokemonService",
+    "command":"inventory",
+}
+
+// List the pokémon in your collection (optional JSONPath query)
+{
+    "service":"PokemonService",
+    "command":"inventory",
+    "path":"$..[?(@.name =~ /^B/i)]"
+}
+`;
+        
+        let codeExamples = {
+            "code0": code0,
+            "code1": code1,
+            "code2": code2,
+            "code3": code3,
+            "code4": code4,
+            "code5": code5,
+            "code6": code6,
+            "code7": code7,
+            "code8": code8,
+        };
+        for (codeId in codeExamples) {
+            cm.CreateEditor(codeId, [cm.javascriptSetup], codeExamples[codeId], false);
+        }
+        
     </script>
     
 </body>

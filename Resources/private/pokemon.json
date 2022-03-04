@@ -1,0 +1,4356 @@
+[
+    {
+        "name": "Bulbasaur",
+        "type": [
+            "Grass",
+            "Poison"
+        ],
+        "gen": 1,
+        "desc": "A strange seed was planted on its back at birth. The plant sprouts and grows with this Pokemon.",
+        "evolution": 1,
+        "evolutions": [
+            "Bulbasaur",
+            "Ivysaur",
+            "Venusaur"
+        ],
+        "baseHP": 45,
+        "baseATK": 49,
+        "baseDEF": 49,
+        "baseSp.ATK": 65,
+        "baseSp.Def": 0,
+        "baseSPD": 65,
+        "isLegendary": false,
+        "isStarter": true,
+        "regions": [
+            "Kanto"
+        ],
+        "number": "#001",
+        "abilities": [
+            "Overgrow",
+            "Chlorophyll"
+        ]
+    },
+    {
+        "name": "Ivysaur",
+        "type": [
+            "Grass",
+            "Poison"
+        ],
+        "gen": 1,
+        "desc": "When the bulb on its back grows large, it appears to lose the ability to stand on its hind legs.",
+        "evolution": 2,
+        "evolutions": [
+            "Bulbasaur",
+            "Ivysaur",
+            "Venusaur"
+        ],
+        "baseHP": 60,
+        "baseATK": 62,
+        "baseDEF": 63,
+        "baseSp.ATK": 80,
+        "baseSp.Def": 80,
+        "baseSPD": 60,
+        "isLegendary": false,
+        "isStarter": false,
+        "regions": [
+            "Kanto"
+        ],
+        "number": "#002",
+        "abilities": [
+            "Overgrow",
+            "Chlorophyll"
+        ]
+    },
+    {
+        "name": "Venusaur",
+        "type": [
+            "Grass",
+            "Poison"
+        ],
+        "gen": 1,
+        "desc": "The plant blooms when it is absorbing solar energy. It stays on the move to seek sunlight.",
+        "evolution": 3,
+        "evolutions": [
+            "Bulbasaur",
+            "Ivysaur",
+            "Venusaur"
+        ],
+        "baseHP": 80,
+        "baseATK": 82,
+        "baseDEF": 83,
+        "baseSp.ATK": 100,
+        "baseSp.Def": 100,
+        "baseSPD": 80,
+        "isLegendary": false,
+        "isStarter": false,
+        "regions": [
+            "Kanto"
+        ],
+        "number": "#003",
+        "abilities": [
+            "Overgrow",
+            "Chlorophyll"
+        ]
+    },
+    {
+        "name": "Charmander",
+        "type": "Fire",
+        "gen": 1,
+        "desc": "Obviously prefers hot places. When it rains, steam is said to spout from the tip of its tail.",
+        "evolution": 1,
+        "evolutions": [
+            "Charmander",
+            "Charmeleon",
+            "Charizard"
+        ],
+        "baseHP": 39,
+        "baseATK": 52,
+        "baseDEF": 43,
+        "baseSp.ATK": 60,
+        "baseSp.Def": 50,
+        "baseSPD": 65,
+        "isLegendary": false,
+        "isStarter": true,
+        "regions": [
+            "Kanto"
+        ],
+        "number": "#004",
+        "abilities": [
+            "Blaze",
+            "Solar Power"
+        ]
+    },
+    {
+        "name": "Charmeleon",
+        "type": "Fire",
+        "gen": 1,
+        "desc": "When it swings its burning tail, it elevates the temperature to unbearably high levels.",
+        "evolution": 2,
+        "evolutions": [
+            "Charmander",
+            "Charmeleon",
+            "Charizard"
+        ],
+        "baseHP": 58,
+        "baseATK": 64,
+        "baseDEF": 58,
+        "baseSp.ATK": 80,
+        "baseSp.Def": 65,
+        "baseSPD": 80,
+        "isLegendary": false,
+        "isStarter": false,
+        "regions": [
+            "Kanto"
+        ],
+        "number": "#005",
+        "abilities": [
+            "Blaze",
+            "Solar Power"
+        ]
+    },
+    {
+        "name": "Charizard",
+        "type": [
+            "Fire",
+            "Flying"
+        ],
+        "gen": 1,
+        "desc": "Spits fire that is hot enough to melt boulders. Known to cause forest fires unintentionally.",
+        "evolution": 3,
+        "evolutions": [
+            "Charmander",
+            "Charmeleon",
+            "Charizard"
+        ],
+        "baseHP": 78,
+        "baseATK": 84,
+        "baseDEF": 78,
+        "baseSp.ATK": 109,
+        "baseSp.Def": 85,
+        "baseSPD": 100,
+        "isLegendary": false,
+        "isStarter": false,
+        "regions": [
+            "Kanto"
+        ],
+        "number": "#006",
+        "abilities": [
+            "Blaze",
+            "Solar Power"
+        ]
+    },
+    {
+        "name": "Squirtle",
+        "type": "Water",
+        "gen": 1,
+        "desc": "After birth, its back swells and hardens into a shell. Powerfully sprays foam from its mouth.",
+        "evolution": 1,
+        "evolutions": [
+            "Squirtle",
+            "Wartortle",
+            "Blastoise"
+        ],
+        "baseHP": 44,
+        "baseATK": 48,
+        "baseDEF": 65,
+        "baseSp.ATK": 50,
+        "baseSp.Def": 64,
+        "baseSPD": 43,
+        "isLegendary": false,
+        "isStarter": true,
+        "regions": [
+            "Kanto"
+        ],
+        "number": "#007",
+        "abilities": [
+            "Torrent",
+            "Rain Dish"
+        ]
+    },
+    {
+        "name": "Wartortle",
+        "type": "Water",
+        "gen": 1,
+        "desc": "Often hides in water to stalk unwary prey. For swimming fast, it moves its ears to maintain balance.",
+        "evolution": 2,
+        "evolutions": [
+            "Squirtle",
+            "Wartortle",
+            "Blastoise"
+        ],
+        "baseHP": 59,
+        "baseATK": 63,
+        "baseDEF": 80,
+        "baseSp.ATK": 65,
+        "baseSp.Def": 80,
+        "baseSPD": 58,
+        "isLegendary": false,
+        "isStarter": false,
+        "regions": [
+            "Kanto"
+        ],
+        "number": "#008",
+        "abilities": [
+            "Torrent",
+            "Rain Dish"
+        ]
+    },
+    {
+        "name": "Blastoise",
+        "type": "Water",
+        "gen": 1,
+        "desc": "A brutal Pokémon with pressurized water jets on its shell. They are used for high speed tackles.",
+        "evolution": 3,
+        "evolutions": [
+            "Squirtle",
+            "Wartortle",
+            "Blastoise"
+        ],
+        "baseHP": 79,
+        "baseATK": 83,
+        "baseDEF": 100,
+        "baseSp.ATK": 85,
+        "baseSp.Def": 105,
+        "baseSPD": 78,
+        "isLegendary": false,
+        "isStarter": false,
+        "regions": [
+            "Kanto"
+        ],
+        "number": "#009",
+        "abilities": [
+            "Torrent",
+            "Rain Dish"
+        ]
+    },
+    {
+        "name": "Caterpie",
+        "type": "Bug",
+        "gen": 1,
+        "desc": "Its short feet are tipped with suction pads that enable it to tirelessly climb slopes and walls.",
+        "evolution": 1,
+        "evolutions": [
+            "Caterpie",
+            "Metapod",
+            "Butterfree"
+        ],
+        "baseHP": 45,
+        "baseATK": 30,
+        "baseDEF": 35,
+        "baseSp.ATK": 20,
+        "baseSp.Def": 20,
+        "baseSPD": 45,
+        "isLegendary": false,
+        "isStarter": false,
+        "regions": [
+            "Kanto"
+        ],
+        "number": "#010",
+        "abilities": [
+            "Shield Dust",
+            "Run Away"
+        ]
+    },
+    {
+        "name": "Metapod",
+        "type": "Bug",
+        "gen": 1,
+        "desc": "This Pokémon is vulnerable to attack while its shell is soft, exposing its weak and tender body.",
+        "evolution": 2,
+        "evolutions": [
+            "Caterpie",
+            "Metapod",
+            "Butterfree"
+        ],
+        "baseHP": 50,
+        "baseATK": 20,
+        "baseDEF": 55,
+        "baseSp.ATK": 25,
+        "baseSp.Def": 25,
+        "baseSPD": 30,
+        "isLegendary": false,
+        "isStarter": false,
+        "regions": [
+            "Kanto"
+        ],
+        "number": "#011",
+        "abilities": [
+            "Shed Skin"
+        ]
+    },
+    {
+        "name": "Butterfree",
+        "type": [
+            "Bug",
+            "Flying"
+        ],
+        "gen": 1,
+        "desc": "In battle, it flaps its wings at high speed to release highly toxic dust into the air.",
+        "evolution": 3,
+        "evolutions": [
+            "Caterpie",
+            "Metapod",
+            "Butterfree"
+        ],
+        "baseHP": 60,
+        "baseATK": 45,
+        "baseDEF": 50,
+        "baseSp.ATK": 90,
+        "baseSp.Def": 80,
+        "baseSPD": 70,
+        "isLegendary": false,
+        "isStarter": false,
+        "regions": [
+            "Kanto"
+        ],
+        "number": "#012",
+        "abilities": [
+            "Compoundeyes",
+            "Tinted Lens"
+        ]
+    },
+    {
+        "name": "Weedle",
+        "type": [
+            "Bug",
+            "Poison"
+        ],
+        "gen": 1,
+        "desc": "Often found in forests, eating leaves. It has a sharp venomous stinger on its head.",
+        "evolution": 1,
+        "evolutions": [
+            "Weedle",
+            "Kakuna",
+            "Beedrill"
+        ],
+        "baseHP": 40,
+        "baseATK": 35,
+        "baseDEF": 30,
+        "baseSp.ATK": 20,
+        "baseSp.Def": 20,
+        "baseSPD": 50,
+        "isLegendary": false,
+        "isStarter": false,
+        "regions": [
+            "Kanto"
+        ],
+        "number": "#013",
+        "abilities": [
+            "Shield Dust",
+            "Run Away"
+        ]
+    },
+    {
+        "name": "Kakuna",
+        "type": [
+            "Bug",
+            "Poison"
+        ],
+        "gen": 1,
+        "desc": "Almost incapable of moving, this Pokémon can only harden its shell to protect itself from predators.",
+        "evolution": 2,
+        "evolutions": [
+            "Caterpie",
+            "Kakuna",
+            "Beedrill"
+        ],
+        "baseHP": 45,
+        "baseATK": 25,
+        "baseDEF": 30,
+        "baseSp.ATK": 25,
+        "baseSp.Def": 25,
+        "baseSPD": 35,
+        "isLegendary": false,
+        "isStarter": false,
+        "regions": [
+            "Kanto"
+        ],
+        "number": "#014",
+        "abilities": [
+            "Shed Skin"
+        ]
+    },
+    {
+        "name": "Beedrill",
+        "type": [
+            "Bug",
+            "Poison"
+        ],
+        "gen": 1,
+        "desc": "Flies at high speed and attacks using its large venomous stingers on its forelegs and tail.",
+        "evolution": 3,
+        "evolutions": [
+            "Weedle",
+            "Kakuna",
+            "Beedrill"
+        ],
+        "baseHP": 65,
+        "baseATK": 90,
+        "baseDEF": 40,
+        "baseSp.ATK": 45,
+        "baseSp.Def": 80,
+        "baseSPD": 75,
+        "isLegendary": false,
+        "isStarter": false,
+        "regions": [
+            "Kanto"
+        ],
+        "number": "#015",
+        "abilities": [
+            "Swarm",
+            "Sniper"
+        ]
+    },
+    {
+        "name": "Pidgey",
+        "type": [
+            "Normal",
+            "Flying"
+        ],
+        "gen": 1,
+        "desc": "A common sight in forests and woods. It flaps its wings at ground level to kick up blinding sand.",
+        "evolution": 1,
+        "evolutions": [
+            "Pidgey",
+            "Pidgeotto",
+            "Pidgeot"
+        ],
+        "baseHP": 40,
+        "baseATK": 45,
+        "baseDEF": 40,
+        "baseSp.ATK": 35,
+        "baseSp.Def": 35,
+        "baseSPD": 56,
+        "isLegendary": false,
+        "isStarter": false,
+        "regions": [
+            "Kanto"
+        ],
+        "number": "#016",
+        "abilities": [
+            "Keen Eye",
+            "Tangled Feet",
+            "Big Pecks"
+        ]
+    },
+    {
+        "name": "Pidgeotto",
+        "type": [
+            "Normal",
+            "Flying"
+        ],
+        "gen": 1,
+        "desc": "Very protective of its sprawling territorial area, this Pokémon will fiercely peck at any intruder.",
+        "evolution": 2,
+        "evolutions": [
+            "Pidgey",
+            "Pidgeotto",
+            "Pidgeot"
+        ],
+        "baseHP": 63,
+        "baseATK": 60,
+        "baseDEF": 55,
+        "baseSp.ATK": 50,
+        "baseSp.Def": 50,
+        "baseSPD": 71,
+        "isLegendary": false,
+        "isStarter": false,
+        "regions": [
+            "Kanto"
+        ],
+        "number": "#017",
+        "abilities": [
+            "Keen Eye",
+            "Tangled Feet",
+            "Big Pecks"
+        ]
+    },
+    {
+        "name": "Pidgeot",
+        "type": [
+            "Normal",
+            "Flying"
+        ],
+        "gen": 1,
+        "desc": "When hunting, it skims the surface of water at high speed to pick off unwary prey such as Magikarp.",
+        "evolution": 3,
+        "evolutions": [
+            "Pidgey",
+            "Pidgeotto",
+            "Pidgeot"
+        ],
+        "baseHP": 83,
+        "baseATK": 80,
+        "baseDEF": 75,
+        "baseSp.ATK": 70,
+        "baseSp.Def": 70,
+        "baseSPD": 101,
+        "isLegendary": false,
+        "isStarter": false,
+        "regions": [
+            "Kanto"
+        ],
+        "number": "#018",
+        "abilities": [
+            "Keen Eye",
+            "Tangled Feet",
+            "Big Pecks"
+        ]
+    },
+    {
+        "name": "Rattata",
+        "type": "Normal",
+        "gen": 1,
+        "desc": "Bites anything when it attacks. Small and very quick, it is a common sight in many places.",
+        "evolution": 1,
+        "evolutions": [
+            "Rattata",
+            "Raticate"
+        ],
+        "baseHP": 30,
+        "baseATK": 56,
+        "baseDEF": 35,
+        "baseSp.ATK": 25,
+        "baseSp.Def": 35,
+        "baseSPD": 72,
+        "isLegendary": false,
+        "isStarter": false,
+        "regions": [
+            "Kanto"
+        ],
+        "number": "#019",
+        "abilities": [
+            "Run Away",
+            "Guts",
+            "Hustle"
+        ]
+    },
+    {
+        "name": "Raticate",
+        "type": "Normal",
+        "gen": 1,
+        "desc": "It uses its whiskers to maintain its balance. It apparently slows down if they are cut off.",
+        "evolution": 2,
+        "evolutions": [
+            "Rattata",
+            "Raticate"
+        ],
+        "baseHP": 55,
+        "baseATK": 81,
+        "baseDEF": 60,
+        "baseSp.ATK": 50,
+        "baseSp.Def": 70,
+        "baseSPD": 97,
+        "isLegendary": false,
+        "isStarter": false,
+        "regions": [
+            "Kanto"
+        ],
+        "number": "#020",
+        "abilities": [
+            "Run Away",
+            "Guts",
+            "Hustle"
+        ]
+    },
+    {
+        "name": "Spearow",
+        "type": [
+            "Normal",
+            "Flying"
+        ],
+        "gen": 1,
+        "desc": "Eats bugs in grassy areas. It has to flap its short wings at high speed to stay airborne.",
+        "evolution": 1,
+        "evolutions": [
+            "Spearow",
+            "Fearow"
+        ],
+        "baseHP": 40,
+        "baseATK": 60,
+        "baseDEF": 30,
+        "baseSp.ATK": 31,
+        "baseSp.Def": 31,
+        "baseSPD": 70,
+        "isLegendary": false,
+        "isStarter": false,
+        "regions": [
+            "Kanto"
+        ],
+        "number": "#021",
+        "abilities": [
+            "Keen Eye",
+            "Sniper"
+        ]
+    },
+    {
+        "name": "Fearow",
+        "type": [
+            "Normal",
+            "Flying"
+        ],
+        "gen": 1,
+        "desc": "With its huge and magnificent wings, it can keep aloft without ever having to land for rest.",
+        "evolution": 2,
+        "evolutions": [
+            "Spearow",
+            "Fearow"
+        ],
+        "baseHP": 65,
+        "baseATK": 90,
+        "baseDEF": 65,
+        "baseSp.ATK": 61,
+        "baseSp.Def": 61,
+        "baseSPD": 100,
+        "isLegendary": false,
+        "isStarter": false,
+        "regions": [
+            "Kanto"
+        ],
+        "number": "#022",
+        "abilities": [
+            "Keen Eye",
+            "Sniper"
+        ]
+    },
+    {
+        "name": "Ekans",
+        "type": "Poison",
+        "gen": 1,
+        "desc": "Moves silently and stealthily. Eats the eggs of birds, such as Pidgey and Spearow, whole.",
+        "evolution": 1,
+        "evolutions": [
+            "Ekans",
+            "Arbok"
+        ],
+        "baseHP": 35,
+        "baseATK": 60,
+        "baseDEF": 44,
+        "baseSp.ATK": 40,
+        "baseSp.Def": 54,
+        "baseSPD": 55,
+        "isLegendary": false,
+        "isStarter": false,
+        "regions": [
+            "Kanto"
+        ],
+        "number": "#023",
+        "abilities": [
+            "Intimidate",
+            "Shed Skin",
+            "Unnerve"
+        ]
+    },
+    {
+        "name": "Arbok",
+        "type": "Poison",
+        "gen": 1,
+        "desc": "It is rumored that the ferocious warning markings on its belly differ from area to area.",
+        "evolution": 2,
+        "evolutions": [
+            "Ekans",
+            "Arbok"
+        ],
+        "baseHP": 60,
+        "baseATK": 95,
+        "baseDEF": 69,
+        "baseSp.ATK": 65,
+        "baseSp.Def": 79,
+        "baseSPD": 80,
+        "isLegendary": false,
+        "isStarter": false,
+        "regions": [
+            "Kanto"
+        ],
+        "number": "#024",
+        "abilities": [
+            "Intimidate",
+            "Shed Skin",
+            "Unnerve"
+        ]
+    },
+    {
+        "name": "Pikachu",
+        "type": "Electric",
+        "gen": 1,
+        "desc": "When several of these Pokémon gather, their electricity could build and cause lightning storms.",
+        "evolution": 1,
+        "evolutions": [
+            "Pikachu",
+            "Raichu"
+        ],
+        "baseHP": 35,
+        "baseATK": 55,
+        "baseDEF": 40,
+        "baseSp.ATK": 50,
+        "baseSp.Def": 50,
+        "baseSPD": 90,
+        "isLegendary": false,
+        "isStarter": false,
+        "regions": [
+            "Kanto"
+        ],
+        "number": "#025",
+        "abilities": [
+            "Static",
+            "Lightning Rod"
+        ]
+    },
+    {
+        "name": "Raichu",
+        "type": "Electric",
+        "gen": 1,
+        "desc": "ts long tail serves as a ground to protect itself from its own high voltage power.",
+        "evolution": 2,
+        "evolutions": [
+            "Pikachu",
+            "Raichu"
+        ],
+        "baseHP": 60,
+        "baseATK": 90,
+        "baseDEF": 50,
+        "baseSp.ATK": 90,
+        "baseSp.Def": 80,
+        "baseSPD": 110,
+        "isLegendary": false,
+        "isStarter": false,
+        "regions": [
+            "Kanto"
+        ],
+        "number": "#026",
+        "abilities": [
+            "Static",
+            "Lightning Rod"
+        ]
+    },
+    {
+        "name": "Sandshrew",
+        "type": "Ground",
+        "gen": 1,
+        "desc": "Burrows deep underground in arid locations far from water. It only emerges to hunt for food.",
+        "evolution": 1,
+        "evolutions": [
+            "Sandshrew",
+            "Sandshlash"
+        ],
+        "baseHP": 50,
+        "baseATK": 75,
+        "baseDEF": 85,
+        "baseSp.ATK": 20,
+        "baseSp.Def": 30,
+        "baseSPD": 40,
+        "isLegendary": false,
+        "isStarter": false,
+        "regions": [
+            "Kanto"
+        ],
+        "number": "#027",
+        "abilities": [
+            "Sand Veil",
+            "Sand Rush"
+        ]
+    },
+    {
+        "name": "Sandslash",
+        "type": "Ground",
+        "gen": 1,
+        "desc": "Curls up into a spiny ball when threatened. It can roll while curled up to attack or escape.",
+        "evolution": 2,
+        "evolutions": [
+            "Sandshrew",
+            "Sandshlash"
+        ],
+        "baseHP": 75,
+        "baseATK": 100,
+        "baseDEF": 110,
+        "baseSp.ATK": 45,
+        "baseSp.Def": 55,
+        "baseSPD": 65,
+        "isLegendary": false,
+        "isStarter": false,
+        "regions": [
+            "Kanto"
+        ],
+        "number": "#028",
+        "abilities": [
+            "Sand Veil",
+            "Sand Rush"
+        ]
+    },
+    {
+        "name": "Nidoran (F)",
+        "type": "Poison",
+        "gen": 1,
+        "desc": "Although small, its venomous barbs render this Pokémon dangerous. The female has smaller horns.",
+        "evolution": 1,
+        "evolutions": [
+            "Nidoran (F)",
+            "Nidorina",
+            "Nidoqueen"
+        ],
+        "baseHP": 55,
+        "baseATK": 47,
+        "baseDEF": 52,
+        "baseSp.ATK": 40,
+        "baseSp.Def": 40,
+        "baseSPD": 41,
+        "isLegendary": false,
+        "isStarter": false,
+        "regions": [
+            "Kanto"
+        ],
+        "number": "#029",
+        "abilities": [
+            "Poison Point",
+            "Rivalry",
+            "Hustle"
+        ]
+    },
+    {
+        "name": "Nidorina",
+        "type": "Poison",
+        "gen": 1,
+        "desc": "The female's horn develops slowly. Prefers physical attacks such as clawing and biting.",
+        "evolution": 2,
+        "evolutions": [
+            "Nidoran (F)",
+            "Nidorina",
+            "Nidoqueen"
+        ],
+        "baseHP": 70,
+        "baseATK": 62,
+        "baseDEF": 72,
+        "baseSp.ATK": 55,
+        "baseSp.Def": 55,
+        "baseSPD": 56,
+        "isLegendary": false,
+        "isStarter": false,
+        "regions": [
+            "Kanto"
+        ],
+        "number": "#030",
+        "abilities": [
+            "Poison Point",
+            "Rivalry",
+            "Hustle"
+        ]
+    },
+    {
+        "name": "Nidoqueen",
+        "type": [
+            "Poison",
+            "Ground"
+        ],
+        "gen": 1,
+        "desc": "Its hard scales provide strong protection. It uses its hefty bulk to execute powerful moves.",
+        "evolution": 3,
+        "evolutions": [
+            "Nidoran (F)",
+            "Nidorina",
+            "Nidoqueen"
+        ],
+        "baseHP": 90,
+        "baseATK": 92,
+        "baseDEF": 87,
+        "baseSp.ATK": 75,
+        "baseSp.Def": 85,
+        "baseSPD": 76,
+        "isLegendary": false,
+        "isStarter": false,
+        "regions": [
+            "Kanto"
+        ],
+        "number": "#031",
+        "abilities": [
+            "Poison Point",
+            "Rivalry",
+            "Sheer Force"
+        ]
+    },
+    {
+        "name": "Nidoran (M)",
+        "type": "Poison",
+        "gen": 1,
+        "desc": "Stiffens its ears to sense danger. The larger its horns, the more powerful its secreted venom.",
+        "evolution": 1,
+        "evolutions": [
+            "Nidoran (M)",
+            "Nidorino",
+            "Nidoking"
+        ],
+        "baseHP": 46,
+        "baseATK": 57,
+        "baseDEF": 40,
+        "baseSp.ATK": 40,
+        "baseSp.Def": 40,
+        "baseSPD": 50,
+        "isLegendary": false,
+        "isStarter": false,
+        "regions": [
+            "Kanto"
+        ],
+        "number": "#032",
+        "abilities": [
+            "Poison Point",
+            "Rivalry",
+            "Hustle"
+        ]
+    },
+    {
+        "name": "Nidorino",
+        "type": "Poison",
+        "gen": 1,
+        "desc": "An aggressive Pokémon that is quick to attack. The horn on its head secretes a powerful venom.",
+        "evolution": 2,
+        "evolutions": [
+            "Nidoran (M)",
+            "Nidorino",
+            "Nidoking"
+        ],
+        "baseHP": 61,
+        "baseATK": 72,
+        "baseDEF": 57,
+        "baseSp.ATK": 55,
+        "baseSp.Def": 55,
+        "baseSPD": 65,
+        "isLegendary": false,
+        "isStarter": false,
+        "regions": [
+            "Kanto"
+        ],
+        "number": "#033",
+        "abilities": [
+            "Poison Point",
+            "Rivalry",
+            "Hustle"
+        ]
+    },
+    {
+        "name": "Nidoking",
+        "type": [
+            "Poison",
+            "Ground"
+        ],
+        "gen": 1,
+        "desc": "It uses its powerful tail in battle to smash, constrict, then break the prey's bones.",
+        "evolution": 3,
+        "evolutions": [
+            "Nidoran (M)",
+            "Nidorino",
+            "Nidoking"
+        ],
+        "baseHP": 81,
+        "baseATK": 102,
+        "baseDEF": 77,
+        "baseSp.ATK": 85,
+        "baseSp.Def": 75,
+        "baseSPD": 85,
+        "isLegendary": false,
+        "isStarter": false,
+        "regions": [
+            "Kanto"
+        ],
+        "number": "#034",
+        "abilities": [
+            "Poison Point",
+            "Rivalry",
+            "Sheer Force"
+        ]
+    },
+    {
+        "name": "Clefairy",
+        "type": "Fairy",
+        "gen": 1,
+        "desc": "Its magical and cute appeal has many admirers. It is rare and found only in certain areas.",
+        "evolution": 1,
+        "evolutions": [
+            "Clefairy",
+            "Clefable"
+        ],
+        "baseHP": 70,
+        "baseATK": 45,
+        "baseDEF": 48,
+        "baseSp.ATK": 60,
+        "baseSp.Def": 65,
+        "baseSPD": 35,
+        "isLegendary": false,
+        "isStarter": false,
+        "regions": [
+            "Kanto"
+        ],
+        "number": "#035",
+        "abilities": [
+            "Cute Charm",
+            "Magic Guard",
+            "Friend Guard"
+        ]
+    },
+    {
+        "name": "Clefable",
+        "type": "Fairy",
+        "gen": 1,
+        "desc": "A timid fairy Pokémon that is rarely seen. It will run and hide the moment it senses people.",
+        "evolution": 2,
+        "evolutions": [
+            "Clefairy",
+            "Clefable"
+        ],
+        "baseHP": 90,
+        "baseATK": 70,
+        "baseDEF": 73,
+        "baseSp.ATK": 95,
+        "baseSp.Def": 90,
+        "baseSPD": 60,
+        "isLegendary": false,
+        "isStarter": false,
+        "regions": [
+            "Kanto"
+        ],
+        "number": "#036",
+        "abilities": [
+            "Cute Charm",
+            "Magic Guard",
+            "Unaware"
+        ]
+    },
+    {
+        "name": "Vulpix",
+        "type": "Fire",
+        "gen": 1,
+        "desc": "At the time of birth, it has just one tail. The tail splits from its tip as it grows older.",
+        "evolution": 1,
+        "evolutions": [
+            "Vulpix",
+            "Ninetales"
+        ],
+        "baseHP": 38,
+        "baseATK": 41,
+        "baseDEF": 40,
+        "baseSp.ATK": 50,
+        "baseSp.Def": 65,
+        "baseSPD": 65,
+        "isLegendary": false,
+        "isStarter": false,
+        "regions": [
+            "Kanto"
+        ],
+        "number": "#037",
+        "abilities": [
+            "Flash Fire",
+            "Drought"
+        ]
+    },
+    {
+        "name": "Ninetales",
+        "type": "Fire",
+        "gen": 1,
+        "desc": "Very smart and very vengeful. Grabbing one of its many tails could result in a 1000-year curse.",
+        "evolution": 2,
+        "evolutions": [
+            "Vulpix",
+            "Ninetales"
+        ],
+        "baseHP": 73,
+        "baseATK": 76,
+        "baseDEF": 75,
+        "baseSp.ATK": 81,
+        "baseSp.Def": 100,
+        "baseSPD": 100,
+        "isLegendary": false,
+        "isStarter": false,
+        "regions": [
+            "Kanto"
+        ],
+        "number": "#038",
+        "abilities": [
+            "Flash Fire",
+            "Drought"
+        ]
+    },
+    {
+        "name": "Jigglypuff",
+        "type": [
+            "Normal",
+            "Fairy"
+        ],
+        "gen": 1,
+        "desc": "When its huge eyes light up, it sings a mysteriously soothing melody that lulls its enemies to sleep.",
+        "evolution": 1,
+        "evolutions": [
+            "Jigglypuff",
+            "Wigglytuff"
+        ],
+        "baseHP": 115,
+        "baseATK": 45,
+        "baseDEF": 20,
+        "baseSp.ATK": 45,
+        "baseSp.Def": 25,
+        "baseSPD": 20,
+        "isLegendary": false,
+        "isStarter": false,
+        "regions": [
+            "Kanto"
+        ],
+        "number": "#039",
+        "abilities": [
+            "Cute Charm",
+            "Competitive",
+            "Friend Guard"
+        ]
+    },
+    {
+        "name": "Wigglytuff",
+        "type": [
+            "Normal",
+            "Fairy"
+        ],
+        "gen": 1,
+        "desc": "The body is soft and rubbery. When angered, it will suck in air and inflate itself to an enormous size.",
+        "evolution": 2,
+        "evolutions": [
+            "Jigglypuff",
+            "Wigglytuff"
+        ],
+        "baseHP": 140,
+        "baseATK": 70,
+        "baseDEF": 45,
+        "baseSp.ATK": 85,
+        "baseSp.Def": 50,
+        "baseSPD": 45,
+        "isLegendary": false,
+        "isStarter": false,
+        "regions": [
+            "Kanto"
+        ],
+        "number": "#040",
+        "abilities": [
+            "Cute Charm",
+            "Competitive",
+            "Frisk"
+        ]
+    },
+    {
+        "name": "Zubat",
+        "type": [
+            "Poison",
+            "Flying"
+        ],
+        "gen": 1,
+        "desc": "Forms colonies in perpetually dark places. Uses ultrasonic waves to identify and approach targets.",
+        "evolution": 1,
+        "evolutions": [
+            "Zubat",
+            "Golbat"
+        ],
+        "baseHP": 40,
+        "baseATK": 45,
+        "baseDEF": 35,
+        "baseSp.ATK": 30,
+        "baseSp.Def": 40,
+        "baseSPD": 55,
+        "isLegendary": false,
+        "isStarter": false,
+        "regions": [
+            "Kanto"
+        ],
+        "number": "#041",
+        "abilities": [
+            "Inner Focus",
+            "Infiltrator"
+        ]
+    },
+    {
+        "name": "Golbat",
+        "type": [
+            "Poison",
+            "Flying"
+        ],
+        "gen": 1,
+        "desc": "Once it strikes, it will not stop draining energy from the victim even if it gets too heavy to fly.",
+        "evolution": 2,
+        "evolutions": [
+            "Zubat",
+            "Golbat"
+        ],
+        "baseHP": 75,
+        "baseATK": 80,
+        "baseDEF": 70,
+        "baseSp.ATK": 65,
+        "baseSp.Def": 75,
+        "baseSPD": 90,
+        "isLegendary": false,
+        "isStarter": false,
+        "regions": [
+            "Kanto"
+        ],
+        "number": "#042",
+        "abilities": [
+            "Inner Focus",
+            "Infiltrator"
+        ]
+    },
+    {
+        "name": "Oddish",
+        "type": [
+            "Grass",
+            "Poison"
+        ],
+        "gen": 1,
+        "desc": "During the day, it keeps its face buried in the ground. At night, it wanders around sowing its seeds.",
+        "evolution": 1,
+        "evolutions": [
+            "Oddish",
+            "Gloom",
+            "Vileplume"
+        ],
+        "baseHP": 45,
+        "baseATK": 50,
+        "baseDEF": 55,
+        "baseSp.ATK": 75,
+        "baseSp.Def": 65,
+        "baseSPD": 30,
+        "isLegendary": false,
+        "isStarter": false,
+        "regions": [
+            "Kanto"
+        ],
+        "number": "#043",
+        "abilities": [
+            "Chlorophyll",
+            "Run Away"
+        ]
+    },
+    {
+        "name": "Gloom",
+        "type": [
+            "Grass",
+            "Poison"
+        ],
+        "gen": 1,
+        "desc": "The fluid that oozes from its mouth isn't drool. It is a nectar that is used to attract prey.",
+        "evolution": 2,
+        "evolutions": [
+            "Oddish",
+            "Gloom",
+            "Vileplume"
+        ],
+        "baseHP": 60,
+        "baseATK": 65,
+        "baseDEF": 70,
+        "baseSp.ATK": 85,
+        "baseSp.Def": 75,
+        "baseSPD": 40,
+        "isLegendary": false,
+        "isStarter": false,
+        "regions": [
+            "Kanto"
+        ],
+        "number": "#044",
+        "abilities": [
+            "Chlorophyll",
+            "Stench"
+        ]
+    },
+    {
+        "name": "Vileplume",
+        "type": [
+            "Grass",
+            "Poison"
+        ],
+        "gen": 1,
+        "desc": "The larger its petals, the more toxic pollen it contains. Its big head is heavy and hard to hold up.",
+        "evolution": 3,
+        "evolutions": [
+            "Oddish",
+            "Gloom",
+            "Vileplume"
+        ],
+        "baseHP": 70,
+        "baseATK": 80,
+        "baseDEF": 85,
+        "baseSp.ATK": 110,
+        "baseSp.Def": 90,
+        "baseSPD": 50,
+        "isLegendary": false,
+        "isStarter": false,
+        "regions": [
+            "Kanto"
+        ],
+        "number": "#045",
+        "abilities": [
+            "Chlorophyll",
+            "Effect Spore"
+        ]
+    },
+    {
+        "name": "Paras",
+        "type": [
+            "Bug",
+            "Grass"
+        ],
+        "gen": 1,
+        "desc": "Burrows to suck tree roots. The mushrooms on its back grow by drawing nutrients from the bug host.",
+        "evolution": 1,
+        "evolutions": [
+            "Paras",
+            "Parasect"
+        ],
+        "baseHP": 35,
+        "baseATK": 70,
+        "baseDEF": 55,
+        "baseSp.ATK": 45,
+        "baseSp.Def": 55,
+        "baseSPD": 25,
+        "isLegendary": false,
+        "isStarter": false,
+        "regions": [
+            "Kanto"
+        ],
+        "number": "#046",
+        "abilities": [
+            "Effect Spore",
+            "Dry Skin",
+            "Damp"
+        ]
+    },
+    {
+        "name": "Parasect",
+        "type": [
+            "Bug",
+            "Grass"
+        ],
+        "gen": 1,
+        "desc": "A host-parasite pair in which the parasite mushroom has taken over the host bug. Prefers damp places.",
+        "evolution": 2,
+        "evolutions": [
+            "Paras",
+            "Parasect"
+        ],
+        "baseHP": 60,
+        "baseATK": 95,
+        "baseDEF": 80,
+        "baseSp.ATK": 60,
+        "baseSp.Def": 80,
+        "baseSPD": 30,
+        "isLegendary": false,
+        "isStarter": false,
+        "regions": [
+            "Kanto"
+        ],
+        "number": "#047",
+        "abilities": [
+            "Effect Spore",
+            "Dry Skin",
+            "Damp"
+        ]
+    },
+    {
+        "name": "Venonat",
+        "type": [
+            "Bug",
+            "Poison"
+        ],
+        "gen": 1,
+        "desc": "Lives in the shadows of tall trees where it eats insects. It is attracted by light at night.",
+        "evolution": 1,
+        "evolutions": [
+            "Venonat",
+            "Venomoth"
+        ],
+        "baseHP": 60,
+        "baseATK": 55,
+        "baseDEF": 50,
+        "baseSp.ATK": 40,
+        "baseSp.Def": 55,
+        "baseSPD": 45,
+        "isLegendary": false,
+        "isStarter": false,
+        "regions": [
+            "Kanto"
+        ],
+        "number": "#048",
+        "abilities": [
+            "Compoundeyes",
+            "Tinted Lens",
+            "Run Away"
+        ]
+    },
+    {
+        "name": "Venomoth",
+        "type": [
+            "Bug",
+            "Poison"
+        ],
+        "gen": 1,
+        "desc": "The dust-like scales covering its wings are color coded to indicate the kinds of poison it has.",
+        "evolution": 2,
+        "evolutions": [
+            "Venonat",
+            "Venomoth"
+        ],
+        "baseHP": 70,
+        "baseATK": 65,
+        "baseDEF": 60,
+        "baseSp.ATK": 90,
+        "baseSp.Def": 75,
+        "baseSPD": 90,
+        "isLegendary": false,
+        "isStarter": false,
+        "regions": [
+            "Kanto"
+        ],
+        "number": "#049",
+        "abilities": [
+            "Shield Dust",
+            "Tinted Lens",
+            "Wonder Skin"
+        ]
+    },
+    {
+        "name": "Diglett",
+        "type": "Ground",
+        "gen": 1,
+        "desc": "Lives about one yard underground where it feeds on plant roots. It sometimes appears above ground.",
+        "evolution": 1,
+        "evolutions": [
+            "Diglett",
+            "Dugtrio"
+        ],
+        "baseHP": 10,
+        "baseATK": 55,
+        "baseDEF": 25,
+        "baseSp.ATK": 35,
+        "baseSp.Def": 45,
+        "baseSPD": 95,
+        "isLegendary": false,
+        "isStarter": false,
+        "regions": [
+            "Kanto"
+        ],
+        "number": "#050",
+        "abilities": [
+            "Sand Veil",
+            "Arena Trap",
+            "Sand Force"
+        ]
+    },
+    {
+        "name": "Dugtrio",
+        "type": "Ground",
+        "gen": 1,
+        "desc": "A team of Diglett triplets. It triggers huge earthquakes by burrowing 60 miles underground.",
+        "evolution": 2,
+        "evolutions": [
+            "Diglett",
+            "Dugtrio"
+        ],
+        "baseHP": 35,
+        "baseATK": 100,
+        "baseDEF": 50,
+        "baseSp.ATK": 50,
+        "baseSp.Def": 70,
+        "baseSPD": 120,
+        "isLegendary": false,
+        "isStarter": false,
+        "regions": [
+            "Kanto"
+        ],
+        "number": "#051",
+        "abilities": [
+            "Sand Veil",
+            "Arena Trap",
+            "Sand Force"
+        ]
+    },
+    {
+        "name": "Meowth",
+        "type": "Normal",
+        "gen": 1,
+        "desc": "Adores circular objects. Wanders the streets on a nightly basis to look for dropped loose change.",
+        "evolution": 1,
+        "evolutions": [
+            "Meowth",
+            "Persian"
+        ],
+        "baseHP": 40,
+        "baseATK": 45,
+        "baseDEF": 35,
+        "baseSp.ATK": 40,
+        "baseSp.Def": 40,
+        "baseSPD": 90,
+        "isLegendary": false,
+        "isStarter": false,
+        "regions": [
+            "Kanto"
+        ],
+        "number": "#052",
+        "abilities": [
+            "Pickup",
+            "Technician",
+            "Unnerve"
+        ]
+    },
+    {
+        "name": "Persian",
+        "type": "Normal",
+        "gen": 1,
+        "desc": "Although its fur has many admirers, it is tough to raise as a pet because of its fickle meanness.",
+        "evolution": 2,
+        "evolutions": [
+            "Meowth",
+            "Persian"
+        ],
+        "baseHP": 65,
+        "baseATK": 70,
+        "baseDEF": 60,
+        "baseSp.ATK": 65,
+        "baseSp.Def": 65,
+        "baseSPD": 115,
+        "isLegendary": false,
+        "isStarter": false,
+        "regions": [
+            "Kanto"
+        ],
+        "number": "#053",
+        "abilities": [
+            "Limber",
+            "Technician",
+            "Unnerve"
+        ]
+    },
+    {
+        "name": "Psyduck",
+        "type": "Water",
+        "gen": 1,
+        "desc": "While lulling its enemies with its vacant look, this wily Pokémon will use psychokinetic powers.",
+        "evolution": 1,
+        "evolutions": [
+            "Psyduck",
+            "Golduck"
+        ],
+        "baseHP": 50,
+        "baseATK": 52,
+        "baseDEF": 48,
+        "baseSp.ATK": 65,
+        "baseSp.Def": 50,
+        "baseSPD": 55,
+        "isLegendary": false,
+        "isStarter": false,
+        "regions": [
+            "Kanto"
+        ],
+        "number": "#054",
+        "abilities": [
+            "Damp",
+            "Cloud Nine",
+            "Swift Swim"
+        ]
+    },
+    {
+        "name": "Golduck",
+        "type": "Water",
+        "gen": 1,
+        "desc": "Often seen swimming elegantly by lake shores. It is often mistaken for the Japanese monster, Kappa.",
+        "evolution": 2,
+        "evolutions": [
+            "Psyduck",
+            "Golduck"
+        ],
+        "baseHP": 80,
+        "baseATK": 82,
+        "baseDEF": 78,
+        "baseSp.ATK": 95,
+        "baseSp.Def": 80,
+        "baseSPD": 85,
+        "isLegendary": false,
+        "isStarter": false,
+        "regions": [
+            "Kanto"
+        ],
+        "number": "#055",
+        "abilities": [
+            "Damp",
+            "Cloud Nine",
+            "Swift Swim"
+        ]
+    },
+    {
+        "name": "Mankey",
+        "type": "Fighting",
+        "gen": 1,
+        "desc": "Extremely quick to anger. It could be docile one moment then thrashing away the next instant.",
+        "evolution": 1,
+        "evolutions": [
+            "Mankey",
+            "Primeape"
+        ],
+        "baseHP": 40,
+        "baseATK": 80,
+        "baseDEF": 35,
+        "baseSp.ATK": 35,
+        "baseSp.Def": 45,
+        "baseSPD": 70,
+        "isLegendary": false,
+        "isStarter": false,
+        "regions": [
+            "Kanto"
+        ],
+        "number": "#056",
+        "abilities": [
+            "Vital Spirit",
+            "Anger Point",
+            "Defiant"
+        ]
+    },
+    {
+        "name": "Primeape",
+        "type": "Fighting",
+        "gen": 1,
+        "desc": "Always furious and tenacious to boot. It will not abandon chasing its quarry until it is caught.",
+        "evolution": 2,
+        "evolutions": [
+            "Mankey",
+            "Primeape"
+        ],
+        "baseHP": 65,
+        "baseATK": 105,
+        "baseDEF": 60,
+        "baseSp.ATK": 60,
+        "baseSp.Def": 70,
+        "baseSPD": 95,
+        "isLegendary": false,
+        "isStarter": false,
+        "regions": [
+            "Kanto"
+        ],
+        "number": "#057",
+        "abilities": [
+            "Vital Spirit",
+            "Anger Point",
+            "Defiant"
+        ]
+    },
+    {
+        "name": "Growlithe",
+        "type": "Fire",
+        "gen": 1,
+        "desc": "Very protective of its territory. It will bark and bite to repel intruders from its space.",
+        "evolution": 1,
+        "evolutions": [
+            "Growlithe",
+            "Arcanine"
+        ],
+        "baseHP": 55,
+        "baseATK": 70,
+        "baseDEF": 45,
+        "baseSp.ATK": 70,
+        "baseSp.Def": 50,
+        "baseSPD": 60,
+        "isLegendary": false,
+        "isStarter": false,
+        "regions": [
+            "Kanto"
+        ],
+        "number": "#058",
+        "abilities": [
+            "Intimidate",
+            "Flash Fire",
+            "Justified"
+        ]
+    },
+    {
+        "name": "Arcanine",
+        "type": "Fire",
+        "gen": 1,
+        "desc": "A Pokémon that has been admired since the past for its beauty. It runs agilely as if on wings.",
+        "evolution": 2,
+        "evolutions": [
+            "Growlithe",
+            "Arcanine"
+        ],
+        "baseHP": 90,
+        "baseATK": 110,
+        "baseDEF": 80,
+        "baseSp.ATK": 100,
+        "baseSp.Def": 80,
+        "baseSPD": 95,
+        "isLegendary": false,
+        "isStarter": false,
+        "regions": [
+            "Kanto"
+        ],
+        "number": "#059",
+        "abilities": [
+            "Intimidate",
+            "Flash Fire",
+            "Justified"
+        ]
+    },
+    {
+        "name": "Poliwag",
+        "type": "Water",
+        "gen": 1,
+        "desc": "Its newly grown legs prevent it from running. It appears to prefer swimming than trying to stand.",
+        "evolution": 1,
+        "evolutions": [
+            "Poliwag",
+            "Poliwhirl",
+            "Poliwrath"
+        ],
+        "baseHP": 40,
+        "baseATK": 50,
+        "baseDEF": 40,
+        "baseSp.ATK": 40,
+        "baseSp.Def": 40,
+        "baseSPD": 90,
+        "isLegendary": false,
+        "isStarter": false,
+        "regions": [
+            "Kanto"
+        ],
+        "number": "#060",
+        "abilities": [
+            "Water Absorb",
+            "Damp",
+            "Swift Swim"
+        ]
+    },
+    {
+        "name": "Poliwhirl",
+        "type": "Water",
+        "gen": 1,
+        "desc": "Capable of living in or out of water. When out of water, it sweats to keep its body slimy.",
+        "evolution": 2,
+        "evolutions": [
+            "Poliwag",
+            "Poliwhirl",
+            "Poliwrath"
+        ],
+        "baseHP": 65,
+        "baseATK": 65,
+        "baseDEF": 65,
+        "baseSp.ATK": 50,
+        "baseSp.Def": 50,
+        "baseSPD": 90,
+        "isLegendary": false,
+        "isStarter": false,
+        "regions": [
+            "Kanto"
+        ],
+        "number": "#061",
+        "abilities": [
+            "Water Absorb",
+            "Damp",
+            "Swift Swim"
+        ]
+    },
+    {
+        "name": "Poliwrath",
+        "type": [
+            "Water",
+            "Fighting"
+        ],
+        "gen": 1,
+        "desc": "An adept swimmer at both the front crawl and breast stroke. Easily overtakes the best human swimmers.",
+        "evolution": 3,
+        "evolutions": [
+            "Poliwag",
+            "Poliwhirl",
+            "Poliwrath"
+        ],
+        "baseHP": 90,
+        "baseATK": 95,
+        "baseDEF": 95,
+        "baseSp.ATK": 70,
+        "baseSp.Def": 90,
+        "baseSPD": 70,
+        "isLegendary": false,
+        "isStarter": false,
+        "regions": [
+            "Kanto"
+        ],
+        "number": "#062",
+        "abilities": [
+            "Water Absorb",
+            "Damp",
+            "Swift Swim"
+        ]
+    },
+    {
+        "name": "Abra",
+        "type": "Psychic",
+        "gen": 1,
+        "desc": "Using its ability to read minds, it will identify impending danger and Teleport to safety.",
+        "evolution": 1,
+        "evolutions": [
+            "Abra",
+            "Kadabra",
+            "Alakazam"
+        ],
+        "baseHP": 25,
+        "baseATK": 20,
+        "baseDEF": 15,
+        "baseSp.ATK": 105,
+        "baseSp.Def": 55,
+        "baseSPD": 90,
+        "isLegendary": false,
+        "isStarter": false,
+        "regions": [
+            "Kanto"
+        ],
+        "number": "#063",
+        "abilities": [
+            "Sychronize",
+            "Inner Focus",
+            "Magic Guard"
+        ]
+    },
+    {
+        "name": "Kadabra",
+        "type": "Psychic",
+        "gen": 1,
+        "desc": "It emits special alpha waves from its body that induce headaches just by being close by.",
+        "evolution": 2,
+        "evolutions": [
+            "Abra",
+            "Kadabra",
+            "Alakazam"
+        ],
+        "baseHP": 40,
+        "baseATK": 35,
+        "baseDEF": 30,
+        "baseSp.ATK": 120,
+        "baseSp.Def": 70,
+        "baseSPD": 105,
+        "isLegendary": false,
+        "isStarter": false,
+        "regions": [
+            "Kanto"
+        ],
+        "number": "#064",
+        "abilities": [
+            "Sychronize",
+            "Inner Focus",
+            "Magic Guard"
+        ]
+    },
+    {
+        "name": "Alakazam",
+        "type": "Psychic",
+        "gen": 1,
+        "desc": "Its brain can outperform a super-computer. Its intelligence quotient is said to be 5,000.",
+        "evolution": 3,
+        "evolutions": [
+            "Abra",
+            "Kadabra",
+            "Alakazam"
+        ],
+        "baseHP": 55,
+        "baseATK": 50,
+        "baseDEF": 45,
+        "baseSp.ATK": 135,
+        "baseSp.Def": 90,
+        "baseSPD": 120,
+        "isLegendary": false,
+        "isStarter": false,
+        "regions": [
+            "Kanto"
+        ],
+        "number": "#065",
+        "abilities": [
+            "Sychronize",
+            "Inner Focus",
+            "Magic Guard"
+        ]
+    },
+    {
+        "name": "Machop",
+        "type": "Fighting",
+        "gen": 1,
+        "desc": "Loves to build its muscles. It trains in all styles of martial arts to become even stronger.",
+        "evolution": 1,
+        "evolutions": [
+            "Machop",
+            "Machoke",
+            "Machamp"
+        ],
+        "baseHP": 70,
+        "baseATK": 80,
+        "baseDEF": 50,
+        "baseSp.ATK": 35,
+        "baseSp.Def": 35,
+        "baseSPD": 35,
+        "isLegendary": false,
+        "isStarter": false,
+        "regions": [
+            "Kanto"
+        ],
+        "number": "#066",
+        "abilities": [
+            "Guts",
+            "No Guard",
+            "Steadfast"
+        ]
+    },
+    {
+        "name": "Machoke",
+        "type": "Fighting",
+        "gen": 1,
+        "desc": "Its muscular body is so powerful, it must wear a power save belt to be able to regulate its motions.",
+        "evolution": 2,
+        "evolutions": [
+            "Machop",
+            "Machoke",
+            "Machamp"
+        ],
+        "baseHP": 80,
+        "baseATK": 100,
+        "baseDEF": 70,
+        "baseSp.ATK": 50,
+        "baseSp.Def": 60,
+        "baseSPD": 45,
+        "isLegendary": false,
+        "isStarter": false,
+        "regions": [
+            "Kanto"
+        ],
+        "number": "#067",
+        "abilities": [
+            "Guts",
+            "No Guard",
+            "Steadfast"
+        ]
+    },
+    {
+        "name": "Machamp",
+        "type": "Fighting",
+        "gen": 1,
+        "desc": "Using its heavy muscles, it throws powerful punches that can send the victim clear over the horizon.",
+        "evolution": 3,
+        "evolutions": [
+            "Machop",
+            "Machoke",
+            "Machamp"
+        ],
+        "baseHP": 90,
+        "baseATK": 130,
+        "baseDEF": 80,
+        "baseSp.ATK": 65,
+        "baseSp.Def": 85,
+        "baseSPD": 55,
+        "isLegendary": false,
+        "isStarter": false,
+        "regions": [
+            "Kanto"
+        ],
+        "number": "#068",
+        "abilities": [
+            "Guts",
+            "No Guard",
+            "Steadfast"
+        ]
+    },
+    {
+        "name": "Bellsprout",
+        "type": [
+            "Grass",
+            "Poison"
+        ],
+        "gen": 1,
+        "desc": "A carnivorous Pokémon that traps and eats bugs. It uses its root feet to soak up needed moisture.",
+        "evolution": 1,
+        "evolutions": [
+            "Bellsprout",
+            "Weepinbell",
+            "Victreebell"
+        ],
+        "baseHP": 50,
+        "baseATK": 75,
+        "baseDEF": 35,
+        "baseSp.ATK": 70,
+        "baseSp.Def": 30,
+        "baseSPD": 40,
+        "isLegendary": false,
+        "isStarter": false,
+        "regions": [
+            "Kanto"
+        ],
+        "number": "#069",
+        "abilities": [
+            "Chlorophyll",
+            "Gluttony"
+        ]
+    },
+    {
+        "name": "Weepinbell",
+        "type": [
+            "Grass",
+            "Poison"
+        ],
+        "gen": 1,
+        "desc": "It spits out PoisonPowder to immobilize the enemy and then finishes it with a spray of Acid.",
+        "evolution": 2,
+        "evolutions": [
+            "Bellsprout",
+            "Weepinbell",
+            "Victreebell"
+        ],
+        "baseHP": 65,
+        "baseATK": 90,
+        "baseDEF": 50,
+        "baseSp.ATK": 85,
+        "baseSp.Def": 45,
+        "baseSPD": 55,
+        "isLegendary": false,
+        "isStarter": false,
+        "regions": [
+            "Kanto"
+        ],
+        "number": "#070",
+        "abilities": [
+            "Chlorophyll",
+            "Gluttony"
+        ]
+    },
+    {
+        "name": "Victreebell",
+        "type": [
+            "Grass",
+            "Poison"
+        ],
+        "gen": 1,
+        "desc": "Said to live in huge colonies deep in jungles, although no one has ever returned from there.",
+        "evolution": 3,
+        "evolutions": [
+            "Bellsprout",
+            "Weepinbell",
+            "Victreebell"
+        ],
+        "baseHP": 80,
+        "baseATK": 105,
+        "baseDEF": 65,
+        "baseSp.ATK": 100,
+        "baseSp.Def": 70,
+        "baseSPD": 70,
+        "isLegendary": false,
+        "isStarter": false,
+        "regions": [
+            "Kanto"
+        ],
+        "number": "#071",
+        "abilities": [
+            "Chlorophyll",
+            "Gluttony"
+        ]
+    },
+    {
+        "name": "Tentacool",
+        "type": [
+            "Water",
+            "Poison"
+        ],
+        "gen": 1,
+        "desc": "Drifts in shallow seas. Anglers who hook them by accident are often punished by its stinging acid.",
+        "evolution": 1,
+        "evolutions": [
+            "Tentacool",
+            "Tentacruel"
+        ],
+        "baseHP": 40,
+        "baseATK": 40,
+        "baseDEF": 35,
+        "baseSp.ATK": 50,
+        "baseSp.Def": 100,
+        "baseSPD": 70,
+        "isLegendary": false,
+        "isStarter": false,
+        "regions": [
+            "Kanto"
+        ],
+        "number": "#072",
+        "abilities": [
+            "Clear Body",
+            "Liquid Oozee",
+            "Rain Dish"
+        ]
+    },
+    {
+        "name": "Tentacruel",
+        "type": [
+            "Water",
+            "Poison"
+        ],
+        "gen": 1,
+        "desc": "The tentacles are normally kept short. On hunts, they are extended to ensnare and immobilize prey.",
+        "evolution": 2,
+        "evolutions": [
+            "Tentacool",
+            "Tentacruel"
+        ],
+        "baseHP": 80,
+        "baseATK": 70,
+        "baseDEF": 65,
+        "baseSp.ATK": 80,
+        "baseSp.Def": 120,
+        "baseSPD": 100,
+        "isLegendary": false,
+        "isStarter": false,
+        "regions": [
+            "Kanto"
+        ],
+        "number": "#073",
+        "abilities": [
+            "Clear Body",
+            "Liquid Oozee",
+            "Rain Dish"
+        ]
+    },
+    {
+        "name": "Geodude",
+        "type": [
+            "Rock",
+            "Ground"
+        ],
+        "gen": 1,
+        "desc": "Found in fields and mountains. Mistaking them for boulders, people often step or trip on them.",
+        "evolution": 1,
+        "evolutions": [
+            "Geodude",
+            "Graveler",
+            "Golem"
+        ],
+        "baseHP": 40,
+        "baseATK": 80,
+        "baseDEF": 100,
+        "baseSp.ATK": 30,
+        "baseSp.Def": 30,
+        "baseSPD": 20,
+        "isLegendary": false,
+        "isStarter": false,
+        "regions": [
+            "Kanto"
+        ],
+        "number": "#074",
+        "abilities": [
+            "Rock Head",
+            "Sturdy",
+            "Sand Veil"
+        ]
+    },
+    {
+        "name": "Graveler",
+        "type": [
+            "Rock",
+            "Ground"
+        ],
+        "gen": 1,
+        "desc": "Rolls down slopes to move. It rolls over any obstacle without slowing or changing its direction.",
+        "evolution": 2,
+        "evolutions": [
+            "Geodude",
+            "Graveler",
+            "Golem"
+        ],
+        "baseHP": 55,
+        "baseATK": 95,
+        "baseDEF": 115,
+        "baseSp.ATK": 45,
+        "baseSp.Def": 45,
+        "baseSPD": 35,
+        "isLegendary": false,
+        "isStarter": false,
+        "regions": [
+            "Kanto"
+        ],
+        "number": "#075",
+        "abilities": [
+            "Rock Head",
+            "Sturdy",
+            "Sand Veil"
+        ]
+    },
+    {
+        "name": "Golem",
+        "type": [
+            "Rock",
+            "Ground"
+        ],
+        "gen": 1,
+        "desc": "Its boulder-like body is extremely hard. It can easily withstand dynamite blasts without damage",
+        "evolution": 3,
+        "evolutions": [
+            "Geodude",
+            "Graveler",
+            "Golem"
+        ],
+        "baseHP": 80,
+        "baseATK": 120,
+        "baseDEF": 130,
+        "baseSp.ATK": 55,
+        "baseSp.Def": 65,
+        "baseSPD": 45,
+        "isLegendary": false,
+        "isStarter": false,
+        "regions": [
+            "Kanto"
+        ],
+        "number": "#076",
+        "abilities": [
+            "Rock Head",
+            "Sturdy",
+            "Sand Veil"
+        ]
+    },
+    {
+        "name": "Ponyta",
+        "type": "Fire",
+        "gen": 1,
+        "desc": "Its hooves are 10 times harder than diamonds. It can trample anything completely flat in little time.",
+        "evolution": 1,
+        "evolutions": [
+            "Ponyta",
+            "Rapidash"
+        ],
+        "baseHP": 50,
+        "baseATK": 85,
+        "baseDEF": 55,
+        "baseSp.ATK": 65,
+        "baseSp.Def": 65,
+        "baseSPD": 90,
+        "isLegendary": false,
+        "isStarter": false,
+        "regions": [
+            "Kanto"
+        ],
+        "number": "#077",
+        "abilities": [
+            "Run Away",
+            "Flash Fire",
+            "Flame Body"
+        ]
+    },
+    {
+        "name": "Rapidash",
+        "type": "Fire",
+        "gen": 1,
+        "desc": "Very competitive, this Pokémon will chase anything that moves fast in the hopes of racing it.",
+        "evolution": 2,
+        "evolutions": [
+            "Ponyta",
+            "Rapidash"
+        ],
+        "baseHP": 65,
+        "baseATK": 100,
+        "baseDEF": 70,
+        "baseSp.ATK": 80,
+        "baseSp.Def": 80,
+        "baseSPD": 105,
+        "isLegendary": false,
+        "isStarter": false,
+        "regions": [
+            "Kanto"
+        ],
+        "number": "#078",
+        "abilities": [
+            "Run Away",
+            "Flash Fire",
+            "Flame Body"
+        ]
+    },
+    {
+        "name": "Slowpoke",
+        "type": [
+            "Water",
+            "Psychic"
+        ],
+        "gen": 1,
+        "desc": "Incredibly slow and dopey. It takes 5 seconds for it to feel pain when under attack.",
+        "evolution": 1,
+        "evolutions": [
+            "Slowpoke",
+            "Slowbro"
+        ],
+        "baseHP": 90,
+        "baseATK": 65,
+        "baseDEF": 65,
+        "baseSp.ATK": 40,
+        "baseSp.Def": 40,
+        "baseSPD": 15,
+        "isLegendary": false,
+        "isStarter": false,
+        "regions": [
+            "Kanto"
+        ],
+        "number": "#079",
+        "abilities": [
+            "Oblivious",
+            "Own Tempo",
+            "Regenerator"
+        ]
+    },
+    {
+        "name": "Slowbro",
+        "type": [
+            "Water",
+            "Psychic"
+        ],
+        "gen": 1,
+        "desc": "The Shellder that is latched onto Slowpoke's tail is said to feed on the host's left over scraps.",
+        "evolution": 2,
+        "evolutions": [
+            "Slowpoke",
+            "Slowbro"
+        ],
+        "baseHP": 95,
+        "baseATK": 75,
+        "baseDEF": 110,
+        "baseSp.ATK": 100,
+        "baseSp.Def": 80,
+        "baseSPD": 30,
+        "isLegendary": false,
+        "isStarter": false,
+        "regions": [
+            "Kanto"
+        ],
+        "number": "#080",
+        "abilities": [
+            "Oblivious",
+            "Own Tempo",
+            "Regenerator"
+        ]
+    },
+    {
+        "name": "Magnemite",
+        "type": [
+            "Electric",
+            "Steel"
+        ],
+        "gen": 1,
+        "desc": "Uses anti-gravity to stay suspended. Appears without warning and uses Thunder Wave and similar moves",
+        "evolution": 1,
+        "evolutions": [
+            "Magnemite",
+            "Magneton"
+        ],
+        "baseHP": 25,
+        "baseATK": 35,
+        "baseDEF": 70,
+        "baseSp.ATK": 95,
+        "baseSp.Def": 55,
+        "baseSPD": 45,
+        "isLegendary": false,
+        "isStarter": false,
+        "regions": [
+            "Kanto"
+        ],
+        "number": "#081",
+        "abilities": [
+            "Magnet Pull",
+            "Sturdy",
+            "Analytic"
+        ]
+    },
+    {
+        "name": "Magneton",
+        "type": [
+            "Electric",
+            "Steel"
+        ],
+        "gen": 1,
+        "desc": "Formed by several Magnemites linked together. They frequently appear when sunspots flare up.",
+        "evolution": 2,
+        "evolutions": [
+            "Magnemite",
+            "Magneton"
+        ],
+        "baseHP": 50,
+        "baseATK": 60,
+        "baseDEF": 95,
+        "baseSp.ATK": 120,
+        "baseSp.Def": 70,
+        "baseSPD": 70,
+        "isLegendary": false,
+        "isStarter": false,
+        "regions": [
+            "Kanto"
+        ],
+        "number": "#082",
+        "abilities": [
+            "Magic Pull",
+            "Sturdy",
+            "Analytic"
+        ]
+    },
+    {
+        "name": "Farfetch'd",
+        "type": [
+            "Normal",
+            "Flying"
+        ],
+        "gen": 1,
+        "desc": "The sprig of green onions it holds is its weapon. It is used much like a metal sword.",
+        "evolution": 1,
+        "evolutions": "",
+        "baseHP": 52,
+        "baseATK": 90,
+        "baseDEF": 55,
+        "baseSp.ATK": 58,
+        "baseSp.Def": 62,
+        "baseSPD": 60,
+        "isLegendary": false,
+        "isStarter": false,
+        "regions": [
+            "Kanto"
+        ],
+        "number": "#083",
+        "abilities": [
+            "Keen Eye",
+            "Inner Focus",
+            "Defiant"
+        ]
+    },
+    {
+        "name": "Doduo",
+        "type": [
+            "Normal",
+            "Flying"
+        ],
+        "gen": 1,
+        "desc": "A bird that makes up for its poor flying with its fast foot speed. Leaves giant footprints.",
+        "evolution": 1,
+        "evolutions": [
+            "Doduo",
+            "Dodrio"
+        ],
+        "baseHP": 35,
+        "baseATK": 85,
+        "baseDEF": 45,
+        "baseSp.ATK": 35,
+        "baseSp.Def": 35,
+        "baseSPD": 75,
+        "isLegendary": false,
+        "isStarter": false,
+        "regions": [
+            "Kanto"
+        ],
+        "number": "#084",
+        "abilities": [
+            "Run Away",
+            "Early Bird",
+            "Tangled Feet"
+        ]
+    },
+    {
+        "name": "Dodrio",
+        "type": [
+            "Normal",
+            "Flying"
+        ],
+        "gen": 1,
+        "desc": "Uses its three brains to execute complex plans. While two heads sleep, one head stays awake.",
+        "evolution": 2,
+        "evolutions": [
+            "Doduo",
+            "Dodrio"
+        ],
+        "baseHP": 60,
+        "baseATK": 110,
+        "baseDEF": 70,
+        "baseSp.ATK": 60,
+        "baseSp.Def": 60,
+        "baseSPD": 110,
+        "isLegendary": false,
+        "isStarter": false,
+        "regions": [
+            "Kanto"
+        ],
+        "number": "#085",
+        "abilities": [
+            "Run Away",
+            "Early Bird",
+            "Tangled Feet"
+        ]
+    },
+    {
+        "name": "Seel",
+        "type": "Water",
+        "gen": 1,
+        "desc": "The protruding horn on its head is very hard. It is used for bashing through thick ice.",
+        "evolution": 1,
+        "evolutions": [
+            "Seel",
+            "Dewgong"
+        ],
+        "baseHP": 65,
+        "baseATK": 45,
+        "baseDEF": 55,
+        "baseSp.ATK": 45,
+        "baseSp.Def": 70,
+        "baseSPD": 45,
+        "isLegendary": false,
+        "isStarter": false,
+        "regions": [
+            "Kanto"
+        ],
+        "number": "#086",
+        "abilities": [
+            "Thick Fat",
+            "Hydration",
+            "Ice Body"
+        ]
+    },
+    {
+        "name": "Dewgong",
+        "type": [
+            "Water",
+            "Ice"
+        ],
+        "gen": 1,
+        "desc": "Stores thermal energy in its body. Swims at a steady 8 knots even in intensely cold waters.",
+        "evolution": 2,
+        "evolutions": [
+            "Seel",
+            "Dewgong"
+        ],
+        "baseHP": 90,
+        "baseATK": 70,
+        "baseDEF": 80,
+        "baseSp.ATK": 70,
+        "baseSp.Def": 95,
+        "baseSPD": 70,
+        "isLegendary": false,
+        "isStarter": false,
+        "regions": [
+            "Kanto"
+        ],
+        "number": "#087",
+        "abilities": [
+            "Thick Fat",
+            "Hydration",
+            "Ice Body"
+        ]
+    },
+    {
+        "name": "Grimer",
+        "type": "Poison",
+        "gen": 1,
+        "desc": "Appears in filthy areas. Thrives by sucking up polluted sludge that is pumped out of factories.",
+        "evolution": 1,
+        "evolutions": [
+            "Grimer",
+            "Muk"
+        ],
+        "baseHP": 80,
+        "baseATK": 80,
+        "baseDEF": 50,
+        "baseSp.ATK": 40,
+        "baseSp.Def": 50,
+        "baseSPD": 25,
+        "isLegendary": false,
+        "isStarter": false,
+        "regions": [
+            "Kanto"
+        ],
+        "number": "#088",
+        "abilities": [
+            "Stench",
+            "Sticky Hold",
+            "Poison Touch"
+        ]
+    },
+    {
+        "name": "Muk",
+        "type": "Poison",
+        "gen": 1,
+        "desc": "Thickly covered with a filthy, vile sludge. It is so toxic, even its footprints contain poison.",
+        "evolution": 2,
+        "evolutions": [
+            "Grimer",
+            "Muk"
+        ],
+        "baseHP": 105,
+        "baseATK": 105,
+        "baseDEF": 75,
+        "baseSp.ATK": 65,
+        "baseSp.Def": 100,
+        "baseSPD": 50,
+        "isLegendary": false,
+        "isStarter": false,
+        "regions": [
+            "Kanto"
+        ],
+        "number": "#089",
+        "abilities": [
+            "Stench",
+            "Sticky Hold",
+            "Poison Touch"
+        ]
+    },
+    {
+        "name": "Shellder",
+        "type": "Water",
+        "gen": 1,
+        "desc": "Its hard shell repels any kind of attack. It is vulnerable only when its shell is open.",
+        "evolution": 1,
+        "evolutions": [
+            "Shellder",
+            "Cloyster"
+        ],
+        "baseHP": 30,
+        "baseATK": 65,
+        "baseDEF": 100,
+        "baseSp.ATK": 45,
+        "baseSp.Def": 25,
+        "baseSPD": 40,
+        "isLegendary": false,
+        "isStarter": false,
+        "regions": [
+            "Kanto"
+        ],
+        "number": "#090",
+        "abilities": [
+            "Shell Armor",
+            "Skill Link",
+            "Overcoat"
+        ]
+    },
+    {
+        "name": "Cloyster",
+        "type": [
+            "Water",
+            "Ice"
+        ],
+        "gen": 1,
+        "desc": "When attacked, it launches its horns in quick volleys. Its innards have never been seen.",
+        "evolution": 2,
+        "evolutions": [
+            "Shellder",
+            "Cloyster"
+        ],
+        "baseHP": 50,
+        "baseATK": 95,
+        "baseDEF": 180,
+        "baseSp.ATK": 85,
+        "baseSp.Def": 45,
+        "baseSPD": 70,
+        "isLegendary": false,
+        "isStarter": false,
+        "regions": [
+            "Kanto"
+        ],
+        "number": "091",
+        "abilities": [
+            "Shell Armor",
+            "Skill Link",
+            "Overcoat"
+        ]
+    },
+    {
+        "name": "Gastly",
+        "type": [
+            "Ghost",
+            "Poison"
+        ],
+        "gen": 1,
+        "desc": "Almost invisible, this gaseous Pokémon cloaks the target and puts it to sleep without notice.",
+        "evolution": 1,
+        "evolutions": [
+            "Gastly",
+            "Haunter",
+            "Gengar"
+        ],
+        "baseHP": 30,
+        "baseATK": 35,
+        "baseDEF": 30,
+        "baseSp.ATK": 100,
+        "baseSp.Def": 35,
+        "baseSPD": 80,
+        "isLegendary": false,
+        "isStarter": false,
+        "regions": [
+            "Kanto"
+        ],
+        "number": "#092",
+        "abilities": [
+            "Levitate"
+        ]
+    },
+    {
+        "name": "Haunter",
+        "type": [
+            "Ghost",
+            "Poison"
+        ],
+        "gen": 1,
+        "desc": "Because of its ability to slip through block walls, it is said to be from another dimension.",
+        "evolution": 2,
+        "evolutions": [
+            "Gastly",
+            "Haunter",
+            "Gengar"
+        ],
+        "baseHP": 45,
+        "baseATK": 50,
+        "baseDEF": 45,
+        "baseSp.ATK": 115,
+        "baseSp.Def": 55,
+        "baseSPD": 95,
+        "isLegendary": false,
+        "isStarter": false,
+        "regions": [
+            "Kanto"
+        ],
+        "number": "#093",
+        "abilities": [
+            "Levitate"
+        ]
+    },
+    {
+        "name": "Gengar",
+        "type": [
+            "Ghost",
+            "Poison"
+        ],
+        "gen": 1,
+        "desc": "Under a full moon, this Pokémon likes to mimic the shadows of people and laugh at their fright.",
+        "evolution": 3,
+        "evolutions": [
+            "Gastly",
+            "Haunter",
+            "Gengar"
+        ],
+        "baseHP": 60,
+        "baseATK": 65,
+        "baseDEF": 60,
+        "baseSp.ATK": 130,
+        "baseSp.Def": 75,
+        "baseSPD": 110,
+        "isLegendary": false,
+        "isStarter": false,
+        "regions": [
+            "Kanto"
+        ],
+        "number": "#094",
+        "abilities": [
+            "Cursed Body"
+        ]
+    },
+    {
+        "name": "Onix",
+        "type": [
+            "Rock",
+            "Ground"
+        ],
+        "gen": 1,
+        "desc": "As it grows, the stone portions of its body harden to become similar to a diamond, but colored black.",
+        "evolution": 1,
+        "evolutions": "",
+        "baseHP": 35,
+        "baseATK": 45,
+        "baseDEF": 160,
+        "baseSp.ATK": 30,
+        "baseSp.Def": 45,
+        "baseSPD": 70,
+        "isLegendary": false,
+        "isStarter": false,
+        "regions": [
+            "Kanto"
+        ],
+        "number": "#095",
+        "abilities": [
+            "Rock Head",
+            "Sturdy",
+            "Weak Armor"
+        ]
+    },
+    {
+        "name": "Drowzee",
+        "type": "Psychic",
+        "gen": 1,
+        "desc": "Puts enemies to sleep then eats their dreams. Occasionally gets sick from eating bad dreams.",
+        "evolution": 1,
+        "evolutions": [
+            "Drowzee",
+            "Hypno"
+        ],
+        "baseHP": 60,
+        "baseATK": 48,
+        "baseDEF": 45,
+        "baseSp.ATK": 43,
+        "baseSp.Def": 90,
+        "baseSPD": 42,
+        "isLegendary": false,
+        "isStarter": false,
+        "regions": [
+            "Kanto"
+        ],
+        "number": "#096",
+        "abilities": [
+            "Insomia",
+            "Forewarn",
+            "Inner Focus"
+        ]
+    },
+    {
+        "name": "Hypno",
+        "type": "Psychic",
+        "gen": 1,
+        "desc": "When it locks eyes with an enemy, it will use a mix of PSI moves such as Hypnosis and Confusion.",
+        "evolution": 2,
+        "evolutions": [
+            "Drowzee",
+            "Hypno"
+        ],
+        "baseHP": 85,
+        "baseATK": 73,
+        "baseDEF": 70,
+        "baseSp.ATK": 73,
+        "baseSp.Def": 115,
+        "baseSPD": 67,
+        "isLegendary": false,
+        "isStarter": false,
+        "regions": [
+            "Kanto"
+        ],
+        "number": "#097",
+        "abilities": [
+            "Insomia",
+            "Forewarn",
+            "Inner Focus"
+        ]
+    },
+    {
+        "name": "Krabby",
+        "type": "Water",
+        "gen": 1,
+        "desc": "Its pincers are not only powerful weapons, they are used for balance when walking sideways.",
+        "evolution": 1,
+        "evolutions": [
+            "Krabby",
+            "Kingler"
+        ],
+        "baseHP": 30,
+        "baseATK": 105,
+        "baseDEF": 90,
+        "baseSp.ATK": 25,
+        "baseSp.Def": 25,
+        "baseSPD": 50,
+        "isLegendary": false,
+        "isStarter": false,
+        "regions": [
+            "Kanto"
+        ],
+        "number": "#098",
+        "abilities": [
+            "Hyper Cutter",
+            "Shell Armor",
+            "Sheer Force"
+        ]
+    },
+    {
+        "name": "Kingler",
+        "type": "Water",
+        "gen": 1,
+        "desc": "The large pincer has 10000 hp of crushing power. However, its huge size makes it unwieldy to use.",
+        "evolution": 2,
+        "evolutions": [
+            "Krabby",
+            "Kingler"
+        ],
+        "baseHP": 55,
+        "baseATK": 130,
+        "baseDEF": 115,
+        "baseSp.ATK": 50,
+        "baseSp.Def": 50,
+        "baseSPD": 75,
+        "isLegendary": false,
+        "isStarter": false,
+        "regions": [
+            "Kanto"
+        ],
+        "number": "#099",
+        "abilities": [
+            "Hyper Cutter",
+            "Shell Armor",
+            "Sheer Force"
+        ]
+    },
+    {
+        "name": "Voltorb",
+        "type": "Electric",
+        "gen": 1,
+        "desc": "Usually found in power plants. Easily mistaken for a Poké Ball, they have zapped many people.",
+        "evolution": 1,
+        "evolutions": [
+            "Voltorb",
+            "Electrode"
+        ],
+        "baseHP": 40,
+        "baseATK": 30,
+        "baseDEF": 50,
+        "baseSp.ATK": 55,
+        "baseSp.Def": 55,
+        "baseSPD": 100,
+        "isLegendary": false,
+        "isStarter": false,
+        "regions": [
+            "Kanto"
+        ],
+        "number": "#100",
+        "abilities": [
+            "Soundproof",
+            "Static",
+            "Aftermath"
+        ]
+    },
+    {
+        "name": "Electrode",
+        "type": "Electric",
+        "gen": 1,
+        "desc": "It stores electric energy under very high pressure. It often explodes with little or no provocation.",
+        "evolution": 2,
+        "evolutions": [
+            "Voltorb",
+            "Electrode"
+        ],
+        "baseHP": 60,
+        "baseATK": 50,
+        "baseDEF": 70,
+        "baseSp.ATK": 80,
+        "baseSp.Def": 80,
+        "baseSPD": 150,
+        "isLegendary": false,
+        "isStarter": false,
+        "regions": [
+            "Kanto"
+        ],
+        "number": "#101",
+        "abilities": [
+            "Soundproof",
+            "Static",
+            "Aftermath"
+        ]
+    },
+    {
+        "name": "Exeggcute",
+        "type": [
+            "Grass",
+            "Psychic"
+        ],
+        "gen": 1,
+        "desc": "Often mistaken for eggs. When disturbed, they quickly gather and attack in swarms.",
+        "evolution": 1,
+        "evolutions": [
+            "Exeggcute",
+            "Exeggutor"
+        ],
+        "baseHP": 60,
+        "baseATK": 40,
+        "baseDEF": 80,
+        "baseSp.ATK": 60,
+        "baseSp.Def": 45,
+        "baseSPD": 40,
+        "isLegendary": false,
+        "isStarter": false,
+        "regions": [
+            "Kanto"
+        ],
+        "number": "#102",
+        "abilities": [
+            "Chlorophyll",
+            "Harvest"
+        ]
+    },
+    {
+        "name": "Exeggutor",
+        "type": [
+            "Grass",
+            "Psychic"
+        ],
+        "gen": 1,
+        "desc": "Legend has it that on rare occasions, one of its heads will drop off and continue on as an Exeggcute.",
+        "evolution": 2,
+        "evolutions": [
+            "Exeggcute",
+            "Exeggutor"
+        ],
+        "baseHP": 95,
+        "baseATK": 95,
+        "baseDEF": 85,
+        "baseSp.ATK": 125,
+        "baseSp.Def": 75,
+        "baseSPD": 55,
+        "isLegendary": false,
+        "isStarter": false,
+        "regions": [
+            "Kanto"
+        ],
+        "number": "#103",
+        "abilities": [
+            "Chlorophyll",
+            "Harvest"
+        ]
+    },
+    {
+        "name": "Cubone",
+        "type": "Ground",
+        "gen": 1,
+        "desc": "Because it never removes its skull helmet, no one has ever seen this Pokémon's real face.",
+        "evolution": 1,
+        "evolutions": [
+            "Cubone",
+            "Marowak"
+        ],
+        "baseHP": 50,
+        "baseATK": 50,
+        "baseDEF": 95,
+        "baseSp.ATK": 40,
+        "baseSp.Def": 50,
+        "baseSPD": 35,
+        "isLegendary": false,
+        "isStarter": false,
+        "regions": [
+            "Kanto"
+        ],
+        "number": "#104",
+        "abilities": [
+            "Rock Head",
+            "Lightning Rod",
+            "Battle Armor"
+        ]
+    },
+    {
+        "name": "Marowak",
+        "type": "Ground",
+        "gen": 1,
+        "desc": "The bone it holds is its key weapon. It throws the bone skillfully like a boomerang to KO targets.",
+        "evolution": 2,
+        "evolutions": [
+            "Cubone",
+            "Marowak"
+        ],
+        "baseHP": 60,
+        "baseATK": 80,
+        "baseDEF": 110,
+        "baseSp.ATK": 50,
+        "baseSp.Def": 80,
+        "baseSPD": 45,
+        "isLegendary": false,
+        "isStarter": false,
+        "regions": [
+            "Kanto"
+        ],
+        "number": "#105",
+        "abilities": [
+            "Rock Head",
+            "Lightning Rod",
+            "Battle Armor"
+        ]
+    },
+    {
+        "name": "Hitmonlee",
+        "type": "Fighting",
+        "gen": 1,
+        "desc": "When in a hurry, its legs lengthen progressively. It runs smoothly with extra long, loping strides.",
+        "evolution": 1,
+        "evolutions": [
+            "Hitmonlee",
+            "Hitmonchan"
+        ],
+        "baseHP": 50,
+        "baseATK": 120,
+        "baseDEF": 53,
+        "baseSp.ATK": 35,
+        "baseSp.Def": 110,
+        "baseSPD": 87,
+        "isLegendary": false,
+        "isStarter": false,
+        "regions": [
+            "Kanto"
+        ],
+        "number": "#106",
+        "abilities": [
+            "Limber",
+            "Reckless",
+            "Unburden"
+        ]
+    },
+    {
+        "name": "Hitmonchan",
+        "type": "Fighting",
+        "gen": 1,
+        "desc": "While apparently doing nothing, it fires punches in lightning fast volleys that are impossible to see.",
+        "evolution": 2,
+        "evolutions": [
+            "Hitmonlee",
+            "Hitmonchan"
+        ],
+        "baseHP": 50,
+        "baseATK": 105,
+        "baseDEF": 79,
+        "baseSp.ATK": 35,
+        "baseSp.Def": 110,
+        "baseSPD": 76,
+        "isLegendary": false,
+        "isStarter": false,
+        "regions": [
+            "Kanto"
+        ],
+        "number": "#107",
+        "abilities": [
+            "Keen Eye",
+            "Iron Fist",
+            "Inner Focus"
+        ]
+    },
+    {
+        "name": "Lickitung",
+        "type": "Normal",
+        "gen": 1,
+        "desc": "Its tongue can be extended like a chameleon's. It leaves a tingling sensation when it licks enemies.",
+        "evolution": 1,
+        "evolutions": "",
+        "baseHP": 90,
+        "baseATK": 55,
+        "baseDEF": 75,
+        "baseSp.ATK": 60,
+        "baseSp.Def": 75,
+        "baseSPD": 30,
+        "isLegendary": false,
+        "isStarter": false,
+        "regions": [
+            "Kanto"
+        ],
+        "number": "#108",
+        "abilities": [
+            "Own Tempo",
+            "Oblivious",
+            "Cloud Nine"
+        ]
+    },
+    {
+        "name": "Koffing",
+        "type": "Poison",
+        "gen": 1,
+        "desc": "Because it stores several kinds of toxic gases in its body, it is prone to exploding without warning.",
+        "evolution": 1,
+        "evolutions": [
+            "Koffing",
+            "Weezing"
+        ],
+        "baseHP": 40,
+        "baseATK": 65,
+        "baseDEF": 95,
+        "baseSp.ATK": 60,
+        "baseSp.Def": 45,
+        "baseSPD": 35,
+        "isLegendary": false,
+        "isStarter": false,
+        "regions": [
+            "Kanto"
+        ],
+        "number": "#019",
+        "abilities": [
+            "Levitate",
+            "Neutralizing",
+            "Gas",
+            "Stench"
+        ]
+    },
+    {
+        "name": "Weezing",
+        "type": "Poison",
+        "gen": 1,
+        "desc": "Where two kinds of poison gases meet, 2 Koffings can fuse into a Weezing over many years.",
+        "evolution": 2,
+        "evolutions": [
+            "Koffing",
+            "Weezing"
+        ],
+        "baseHP": 65,
+        "baseATK": 90,
+        "baseDEF": 120,
+        "baseSp.ATK": 85,
+        "baseSp.Def": 70,
+        "baseSPD": 60,
+        "isLegendary": false,
+        "isStarter": false,
+        "regions": [
+            "Kanto"
+        ],
+        "number": "#110",
+        "abilities": [
+            "Levitate",
+            "Neutralizing",
+            "Gas",
+            "Stench"
+        ]
+    },
+    {
+        "name": "Rhyhorn",
+        "type": [
+            "Ground",
+            "Rock"
+        ],
+        "gen": 1,
+        "desc": "Its massive bones are 1000 times harder than human bones. It can easily knock a trailer flying.",
+        "evolution": 1,
+        "evolutions": [
+            "Rhyhorn",
+            "Rhydon"
+        ],
+        "baseHP": 80,
+        "baseATK": 85,
+        "baseDEF": 95,
+        "baseSp.ATK": 30,
+        "baseSp.Def": 30,
+        "baseSPD": 25,
+        "isLegendary": false,
+        "isStarter": false,
+        "regions": [
+            "Kanto"
+        ],
+        "number": "#111",
+        "abilities": [
+            "Lightning Rod",
+            "Rock Head",
+            "Reckless"
+        ]
+    },
+    {
+        "name": "Rhydon",
+        "type": [
+            "Ground",
+            "Rock"
+        ],
+        "gen": 1,
+        "desc": "Protected by an armor-like hide, it is capable of living in molten lava of 3,600 degrees.",
+        "evolution": 2,
+        "evolutions": [
+            "Rhyhorn",
+            "Rhydon"
+        ],
+        "baseHP": "105",
+        "baseATK": "130",
+        "baseDEF": "120",
+        "baseSp.ATK": "45",
+        "baseSp.Def": "45",
+        "baseSPD": "40",
+        "isLegendary": false,
+        "isStarter": false,
+        "regions": [
+            "Kanto"
+        ],
+        "number": "#112",
+        "abilities": [
+            "Lightning Rod",
+            "Rock Head",
+            "Reckless"
+        ]
+    },
+    {
+        "name": "Chansey",
+        "type": "Normal",
+        "gen": 1,
+        "desc": "A rare and elusive Pokémon that is said to bring happiness to those who manage to get it.",
+        "evolution": 1,
+        "evolutions": "",
+        "baseHP": 250,
+        "baseATK": 5,
+        "baseDEF": 5,
+        "baseSp.ATK": 35,
+        "baseSp.Def": 105,
+        "baseSPD": 50,
+        "isLegendary": false,
+        "isStarter": false,
+        "regions": [
+            "Kanto"
+        ],
+        "number": "#113",
+        "abilities": [
+            "Natural Cure",
+            "Serene Grace",
+            "Healer"
+        ]
+    },
+    {
+        "name": "Tangela",
+        "type": "Grass",
+        "gen": 1,
+        "desc": "The whole body is swathed with wide vines that are similar to seaweed. Its vines shake as it walks.",
+        "evolution": 1,
+        "evolutions": "",
+        "baseHP": 65,
+        "baseATK": 55,
+        "baseDEF": 115,
+        "baseSp.ATK": 100,
+        "baseSp.Def": 40,
+        "baseSPD": 60,
+        "isLegendary": false,
+        "isStarter": false,
+        "regions": [
+            "Kanto"
+        ],
+        "number": "#114",
+        "abilities": [
+            "Chlorophyll",
+            "Leaf Guard",
+            "Regenerator"
+        ]
+    },
+    {
+        "name": "Kangaskhan",
+        "type": "Normal",
+        "gen": 1,
+        "desc": "The infant rarely ventures out of its mother's protective pouch until it is 3 years old.",
+        "evolution": 1,
+        "evolutions": "",
+        "baseHP": 105,
+        "baseATK": 95,
+        "baseDEF": 80,
+        "baseSp.ATK": 40,
+        "baseSp.Def": 80,
+        "baseSPD": 90,
+        "isLegendary": false,
+        "isStarter": false,
+        "regions": [
+            "Kanto"
+        ],
+        "number": "#115",
+        "abilities": [
+            "Early Bird",
+            "Scrappy",
+            "Inner Focus"
+        ]
+    },
+    {
+        "name": "Horsea",
+        "type": "Water",
+        "gen": 1,
+        "desc": "Known to shoot down flying bugs with precision blasts of ink from the surface of the water.",
+        "evolution": 1,
+        "evolutions": [
+            "Horsea",
+            "Seadra"
+        ],
+        "baseHP": 30,
+        "baseATK": 40,
+        "baseDEF": 70,
+        "baseSp.ATK": 70,
+        "baseSp.Def": 25,
+        "baseSPD": 60,
+        "isLegendary": false,
+        "isStarter": false,
+        "regions": [
+            "Kanto"
+        ],
+        "number": "#116",
+        "abilities": [
+            "Swift Swim",
+            "Sniper",
+            "Inner Focus"
+        ]
+    },
+    {
+        "name": "Seadra",
+        "type": "Water",
+        "gen": 1,
+        "desc": "Capable of swimming backwards by rapidly flapping its wing-like pectoral fins and stout tail.",
+        "evolution": 2,
+        "evolutions": [
+            "Horsea",
+            "Seadra"
+        ],
+        "baseHP": 55,
+        "baseATK": 65,
+        "baseDEF": 95,
+        "baseSp.ATK": 95,
+        "baseSp.Def": 45,
+        "baseSPD": 85,
+        "isLegendary": false,
+        "isStarter": false,
+        "regions": [
+            "Kanto"
+        ],
+        "number": "#117",
+        "abilities": [
+            "Poison Point",
+            "Sniper",
+            "Damp"
+        ]
+    },
+    {
+        "name": "Goldeen",
+        "type": "Water",
+        "gen": 1,
+        "desc": "Its tail fin billows like an elegant ballroom dress, giving it the nickname of the Water Queen.",
+        "evolution": 1,
+        "evolutions": [
+            "Goldeen",
+            "Seaking"
+        ],
+        "baseHP": 45,
+        "baseATK": 67,
+        "baseDEF": 60,
+        "baseSp.ATK": 35,
+        "baseSp.Def": 50,
+        "baseSPD": 63,
+        "isLegendary": false,
+        "isStarter": false,
+        "regions": [
+            "Kanto"
+        ],
+        "number": "#118",
+        "abilities": [
+            "Swift Swim",
+            "Water Veil",
+            "Lightning Rod"
+        ]
+    },
+    {
+        "name": "Seaking",
+        "type": "Water",
+        "gen": 1,
+        "desc": "In the autumn spawning season, they can be seen swimming powerfully up rivers and creeks.",
+        "evolution": 1,
+        "evolutions": [
+            "Goldeen",
+            "Seaking"
+        ],
+        "baseHP": 80,
+        "baseATK": 92,
+        "baseDEF": 65,
+        "baseSp.ATK": 65,
+        "baseSp.Def": 80,
+        "baseSPD": 68,
+        "isLegendary": false,
+        "isStarter": false,
+        "regions": [
+            "Kanto"
+        ],
+        "number": "#119",
+        "abilities": [
+            "Swift Swim",
+            "Water Veil",
+            "Lightning Rod"
+        ]
+    },
+    {
+        "name": "Staryu",
+        "type": "Water",
+        "gen": 1,
+        "desc": "An enigmatic Pokémon that can effortlessly regenerate any appendage it loses in battle.",
+        "evolution": 1,
+        "evolutions": [
+            "Staryu",
+            "Starmie"
+        ],
+        "baseHP": 30,
+        "baseATK": 45,
+        "baseDEF": 55,
+        "baseSp.ATK": 70,
+        "baseSp.Def": 55,
+        "baseSPD": 85,
+        "isLegendary": false,
+        "isStarter": false,
+        "regions": [
+            "Kanto"
+        ],
+        "number": "#120",
+        "abilities": [
+            "Illuminate",
+            "Natural Cure",
+            "Analytic"
+        ]
+    },
+    {
+        "name": "Starmie",
+        "type": [
+            "Water",
+            "Psychic"
+        ],
+        "gen": 1,
+        "desc": "Its central core glows with the seven colors of the rainbow. Some people value the core as a gem.",
+        "evolution": 1,
+        "evolutions": [
+            "Staryu",
+            "Starmie"
+        ],
+        "baseHP": 60,
+        "baseATK": 75,
+        "baseDEF": 85,
+        "baseSp.ATK": 100,
+        "baseSp.Def": 85,
+        "baseSPD": 115,
+        "isLegendary": false,
+        "isStarter": false,
+        "regions": [
+            "Kanto"
+        ],
+        "number": "#121",
+        "abilities": [
+            "Illuminate",
+            "Natural Cure",
+            "Analytic"
+        ]
+    },
+    {
+        "name": "Mr. Mime",
+        "type": [
+            "Psychic",
+            "Fairy"
+        ],
+        "gen": 1,
+        "desc": "If interrupted while it is miming, it will slap around the offender with its broad hands.",
+        "evolution": 1,
+        "evolutions": "",
+        "baseHP": 40,
+        "baseATK": 45,
+        "baseDEF": 65,
+        "baseSp.ATK": 100,
+        "baseSp.Def": 120,
+        "baseSPD": 90,
+        "isLegendary": false,
+        "isStarter": false,
+        "regions": [
+            "Kanto"
+        ],
+        "number": "#122",
+        "abilities": [
+            "Soundproof",
+            "Filter",
+            "Technician"
+        ]
+    },
+    {
+        "name": "Scyther",
+        "type": [
+            "Bug",
+            "Flying"
+        ],
+        "gen": 1,
+        "desc": "With ninja-like agility and speed, it can create the illusion that there is more than one.",
+        "evolution": 1,
+        "evolutions": "",
+        "baseHP": 70,
+        "baseATK": 110,
+        "baseDEF": 80,
+        "baseSp.ATK": 55,
+        "baseSp.Def": 80,
+        "baseSPD": 105,
+        "isLegendary": false,
+        "isStarter": false,
+        "regions": [
+            "Kanto"
+        ],
+        "number": "#123",
+        "abilities": [
+            "Swarm",
+            "Technician",
+            "Steadfast"
+        ]
+    },
+    {
+        "name": "Jynx",
+        "type": [
+            "Ice",
+            "Psychic"
+        ],
+        "gen": 1,
+        "desc": "It seductively wiggles its hips as it walks. It can cause people to dance in unison with it.",
+        "evolution": 1,
+        "evolutions": "",
+        "baseHP": 65,
+        "baseATK": 50,
+        "baseDEF": 35,
+        "baseSp.ATK": 115,
+        "baseSp.Def": 95,
+        "baseSPD": 95,
+        "isLegendary": false,
+        "isStarter": false,
+        "regions": [
+            "Kanto"
+        ],
+        "number": "#124",
+        "abilities": [
+            "Oblivious",
+            "Forewarn",
+            "Dry Skin"
+        ]
+    },
+    {
+        "name": "Electrabuzz",
+        "type": "Electric",
+        "gen": 1,
+        "desc": "Normally found near power plants, they can wander away and cause major blackouts in cities.",
+        "evolution": 1,
+        "evolutions": "",
+        "baseHP": 65,
+        "baseATK": 83,
+        "baseDEF": 56,
+        "baseSp.ATK": 95,
+        "baseSp.Def": 85,
+        "baseSPD": 105,
+        "isLegendary": false,
+        "isStarter": false,
+        "regions": [
+            "Kanto"
+        ],
+        "number": "#125",
+        "abilities": [
+            "Static",
+            "Vital Spirit"
+        ]
+    },
+    {
+        "name": "Magmar",
+        "type": "Fire",
+        "gen": 1,
+        "desc": "Its body always burns with an orange glow that enables it to hide perfectly among flames.",
+        "evolution": 1,
+        "evolutions": "",
+        "baseHP": 65,
+        "baseATK": 95,
+        "baseDEF": 57,
+        "baseSp.ATK": 100,
+        "baseSp.Def": 85,
+        "baseSPD": 93,
+        "isLegendary": false,
+        "isStarter": false,
+        "regions": [
+            "Kanto"
+        ],
+        "number": "#126",
+        "abilities": [
+            "Flame Body",
+            "Vital Spirit"
+        ]
+    },
+    {
+        "name": "Pinsir",
+        "type": "Bug",
+        "gen": 1,
+        "desc": "If it fails to crush the victim in its pincers, it will swing it around and toss it hard.",
+        "evolution": 1,
+        "evolutions": "",
+        "baseHP": 65,
+        "baseATK": 125,
+        "baseDEF": 100,
+        "baseSp.ATK": 55,
+        "baseSp.Def": 70,
+        "baseSPD": 85,
+        "isLegendary": false,
+        "isStarter": false,
+        "regions": [
+            "Kanto"
+        ],
+        "number": "#127",
+        "abilities": [
+            "Hyper Cutter",
+            "Mold Breaker",
+            "Moxie"
+        ]
+    },
+    {
+        "name": "Tauros",
+        "type": "Normal",
+        "gen": 1,
+        "desc": "When it targets an enemy, it charges furiously while whipping its body with its long tails.",
+        "evolution": 1,
+        "evolutions": "",
+        "baseHP": 75,
+        "baseATK": 100,
+        "baseDEF": 95,
+        "baseSp.ATK": 40,
+        "baseSp.Def": 70,
+        "baseSPD": 110,
+        "isLegendary": false,
+        "isStarter": false,
+        "regions": [
+            "Kanto"
+        ],
+        "number": "#128",
+        "abilities": [
+            "Intimidate",
+            "Anger Point",
+            "Sheer Force"
+        ]
+    },
+    {
+        "name": "Magikarp",
+        "type": "Water",
+        "gen": 1,
+        "desc": "In the distant past, it was somewhat stronger than the horribly weak descendants that exist today.",
+        "evolution": 1,
+        "evolutions": [
+            "Magikarp",
+            "Gyrados"
+        ],
+        "baseHP": 20,
+        "baseATK": 10,
+        "baseDEF": 55,
+        "baseSp.ATK": 15,
+        "baseSp.Def": 20,
+        "baseSPD": 80,
+        "isLegendary": false,
+        "isStarter": false,
+        "regions": [
+            "Kanto"
+        ],
+        "number": "#129",
+        "abilities": [
+            "Swift Swim",
+            "Rattled"
+        ]
+    },
+    {
+        "name": "Gyrados",
+        "type": [
+            "Water",
+            "Flying"
+        ],
+        "gen": 1,
+        "desc": "Rarely seen in the wild. Huge and vicious, it is capable of destroying entire cities in a rage.",
+        "evolution": 2,
+        "evolutions": [
+            "Magikarp",
+            "Gyrados"
+        ],
+        "baseHP": 95,
+        "baseATK": 125,
+        "baseDEF": 79,
+        "baseSp.ATK": 60,
+        "baseSp.Def": 100,
+        "baseSPD": 81,
+        "isLegendary": false,
+        "isStarter": false,
+        "regions": [
+            "Kanto"
+        ],
+        "number": "#130",
+        "abilities": [
+            "Intimidate",
+            "Moxie"
+        ]
+    },
+    {
+        "name": "Lapras",
+        "type": [
+            "Water",
+            "Ice"
+        ],
+        "gen": 1,
+        "desc": "A Pokémon that has been overhunted almost to extinction. It can ferry people across the water.",
+        "evolution": 1,
+        "evolutions": "",
+        "baseHP": 130,
+        "baseATK": 85,
+        "baseDEF": 80,
+        "baseSp.ATK": 85,
+        "baseSp.Def": 95,
+        "baseSPD": 60,
+        "isLegendary": false,
+        "isStarter": false,
+        "regions": [
+            "Kanto"
+        ],
+        "number": "#131",
+        "abilities": [
+            "Water Absorb",
+            "Shell Armor",
+            "Hydration"
+        ]
+    },
+    {
+        "name": "Ditto",
+        "type": "Normal",
+        "gen": 1,
+        "desc": "Capable of copying an enemy's genetic code to instantly transform itself into a duplicate of the enemy.",
+        "evolution": 1,
+        "evolutions": "",
+        "baseHP": 48,
+        "baseATK": 48,
+        "baseDEF": 48,
+        "baseSp.ATK": 48,
+        "baseSp.Def": 48,
+        "baseSPD": 48,
+        "isLegendary": false,
+        "isStarter": false,
+        "regions": [
+            "Kanto"
+        ],
+        "number": "#132",
+        "abilities": [
+            "Limber",
+            "Imposter"
+        ]
+    },
+    {
+        "name": "Eevee",
+        "type": "Normal",
+        "gen": 1,
+        "desc": "Its genetic code is irregular. It may mutate if it is exposed to radiation from Evolution stones.",
+        "evolution": 1,
+        "evolutions": [
+            "Eevee",
+            "Vaporeon",
+            "Jolteon",
+            "Flareon"
+        ],
+        "baseHP": 55,
+        "baseATK": 55,
+        "baseDEF": 50,
+        "baseSp.ATK": 45,
+        "baseSp.Def": 65,
+        "baseSPD": 55,
+        "isLegendary": false,
+        "isStarter": false,
+        "regions": [
+            "Kanto"
+        ],
+        "number": "#133",
+        "abilities": [
+            "Run Away",
+            "Adaptability",
+            "Anticipation"
+        ]
+    },
+    {
+        "name": "Vaporeon",
+        "type": "Water",
+        "gen": 1,
+        "desc": "Lives close to water. Its long tail is ridged with a fin which is often mistaken for a mermaid's.",
+        "evolution": 2,
+        "evolutions": [
+            "Eevee",
+            "Vaporeon"
+        ],
+        "baseHP": 130,
+        "baseATK": 65,
+        "baseDEF": 60,
+        "baseSp.ATK": 110,
+        "baseSp.Def": 95,
+        "baseSPD": 60,
+        "isLegendary": false,
+        "isStarter": false,
+        "regions": [
+            "Kanto"
+        ],
+        "number": "#134",
+        "abilities": [
+            "Water Absorb",
+            "Hydration"
+        ]
+    },
+    {
+        "name": "Jolteon",
+        "type": "Electric",
+        "gen": 1,
+        "desc": "It accumulates negative ions in the atmosphere to blast out 10000-volt lightning bolts.",
+        "evolution": 2,
+        "evolutions": [
+            "Eevee",
+            "Jolteon"
+        ],
+        "baseHP": 65,
+        "baseATK": 65,
+        "baseDEF": 60,
+        "baseSp.ATK": 110,
+        "baseSp.Def": 95,
+        "baseSPD": 130,
+        "isLegendary": false,
+        "isStarter": false,
+        "regions": [
+            "Kanto"
+        ],
+        "number": "#135",
+        "abilities": [
+            "Volt Absorb",
+            "Quick Feet"
+        ]
+    },
+    {
+        "name": "Flareon",
+        "type": "Fire",
+        "gen": 1,
+        "desc": "When storing thermal energy in its body, its temperature could soar to over 1600 degrees.",
+        "evolution": 2,
+        "evolutions": [
+            "Eevee",
+            "Flareon"
+        ],
+        "baseHP": 65,
+        "baseATK": 130,
+        "baseDEF": 60,
+        "baseSp.ATK": 95,
+        "baseSp.Def": 110,
+        "baseSPD": 65,
+        "isLegendary": false,
+        "isStarter": false,
+        "regions": [
+            "Kanto"
+        ],
+        "number": "#136",
+        "abilities": [
+            "Flash Fire",
+            "Guts"
+        ]
+    },
+    {
+        "name": "Porygon",
+        "type": "Normal",
+        "gen": 1,
+        "desc": "A Pokémon that consists entirely of programming code. Capable of moving freely in cyberspace.",
+        "evolution": 1,
+        "evolutions": "",
+        "baseHP": 65,
+        "baseATK": 60,
+        "baseDEF": 70,
+        "baseSp.ATK": 85,
+        "baseSp.Def": 75,
+        "baseSPD": 40,
+        "isLegendary": false,
+        "isStarter": false,
+        "regions": [
+            "Kanto"
+        ],
+        "number": "#137",
+        "abilities": [
+            "Trace",
+            "Download",
+            "Analytic"
+        ]
+    },
+    {
+        "name": "Omanyte",
+        "type": [
+            "Rock",
+            "Water"
+        ],
+        "gen": 1,
+        "desc": "Although long extinct, in rare cases, it can be genetically resurrected from fossils.",
+        "evolution": 1,
+        "evolutions": [
+            "Omanyte",
+            "Omastar"
+        ],
+        "baseHP": 35,
+        "baseATK": 40,
+        "baseDEF": 100,
+        "baseSp.ATK": 90,
+        "baseSp.Def": 55,
+        "baseSPD": 35,
+        "isLegendary": false,
+        "isStarter": false,
+        "regions": [
+            "Kanto"
+        ],
+        "number": "#138",
+        "abilities": [
+            "Swift Swim",
+            "Shell Armor",
+            "Weak Armor"
+        ]
+    },
+    {
+        "name": "Omastar",
+        "type": [
+            "Rock",
+            "Water"
+        ],
+        "gen": 1,
+        "desc": "A prehistoric Pokémon that died out when its heavy shell made it impossible to catch prey.",
+        "evolution": 2,
+        "evolutions": [
+            "Omanyte",
+            "Omastar"
+        ],
+        "baseHP": 70,
+        "baseATK": 60,
+        "baseDEF": 125,
+        "baseSp.ATK": 115,
+        "baseSp.Def": 70,
+        "baseSPD": 55,
+        "isLegendary": false,
+        "isStarter": false,
+        "regions": [
+            "Kanto"
+        ],
+        "number": "#139",
+        "abilities": [
+            "Swift Swim",
+            "Shell Armor",
+            "Weak Armor"
+        ]
+    },
+    {
+        "name": "Kabuto",
+        "type": [
+            "Rock",
+            "Water"
+        ],
+        "gen": 1,
+        "desc": "A Pokémon that was resurrected from a fossil found in what was once the ocean floor eons ago.",
+        "evolution": 1,
+        "evolutions": [
+            "Kabuto",
+            "Kabutops"
+        ],
+        "baseHP": 30,
+        "baseATK": 80,
+        "baseDEF": 90,
+        "baseSp.ATK": 55,
+        "baseSp.Def": 45,
+        "baseSPD": 55,
+        "isLegendary": false,
+        "isStarter": false,
+        "regions": [
+            "Kanto"
+        ],
+        "number": "#140",
+        "abilities": [
+            "Swift Swim",
+            "Battle Armor",
+            "Weak Armor"
+        ]
+    },
+    {
+        "name": "Kabutops",
+        "type": [
+            "Rock",
+            "Water"
+        ],
+        "gen": 1,
+        "desc": "Its sleek shape is perfect for swimming. It slashes prey with its claws and drains the body fluids.",
+        "evolution": 2,
+        "evolutions": [
+            "Kabuto",
+            "Kabutops"
+        ],
+        "baseHP": 60,
+        "baseATK": 115,
+        "baseDEF": 105,
+        "baseSp.ATK": 65,
+        "baseSp.Def": 70,
+        "baseSPD": 80,
+        "isLegendary": false,
+        "isStarter": false,
+        "regions": [
+            "Kanto"
+        ],
+        "number": "#141",
+        "abilities": [
+            "Swift Swim",
+            "Battle Armor",
+            "Weak Armor"
+        ]
+    },
+    {
+        "name": "Aerodactyl",
+        "type": [
+            "Rock",
+            "Flying"
+        ],
+        "gen": 1,
+        "desc": "A ferocious, prehistoric Pokémon that goes for the enemy's throat with its serrated saw-like fangs.",
+        "evolution": 1,
+        "evolutions": "",
+        "baseHP": 80,
+        "baseATK": 105,
+        "baseDEF": 65,
+        "baseSp.ATK": 60,
+        "baseSp.Def": 75,
+        "baseSPD": 130,
+        "isLegendary": false,
+        "isStarter": false,
+        "regions": [
+            "Kanto"
+        ],
+        "number": "#142",
+        "abilities": [
+            "Rock Head",
+            "Pressure",
+            "Unnerve"
+        ]
+    },
+    {
+        "name": "Snorlax",
+        "type": "Normal",
+        "gen": 1,
+        "desc": "Very lazy. Just eats and sleeps. As its rotund bulk builds, it becomes steadily more slothful.",
+        "evolution": 1,
+        "evolutions": "",
+        "baseHP": 160,
+        "baseATK": 110,
+        "baseDEF": 65,
+        "baseSp.ATK": 65,
+        "baseSp.Def": 110,
+        "baseSPD": 30,
+        "isLegendary": false,
+        "isStarter": false,
+        "regions": [
+            "Kanto"
+        ],
+        "number": "#143",
+        "abilities": [
+            "Immunity",
+            "Thick Fat",
+            "Gluttony"
+        ]
+    },
+    {
+        "name": "Articuno",
+        "type": [
+            "Ice",
+            "Flying"
+        ],
+        "gen": 1,
+        "desc": "A legendary bird Pokémon that is said to appear to doomed people who are lost in icy mountains.",
+        "evolution": 1,
+        "evolutions": "",
+        "baseHP": 90,
+        "baseATK": 85,
+        "baseDEF": 100,
+        "baseSp.ATK": 95,
+        "baseSp.Def": 125,
+        "baseSPD": 85,
+        "isLegendary": true,
+        "isStarter": false,
+        "regions": [
+            "Kanto"
+        ],
+        "number": "#144",
+        "abilities": [
+            "Pressure",
+            "Snow Cloak"
+        ]
+    },
+    {
+        "name": "Zapdos",
+        "type": [
+            "Electric",
+            "Flying"
+        ],
+        "gen": 1,
+        "desc": "A legendary bird Pokémon that is said to appear from clouds while dropping enormous lightning bolts.",
+        "evolution": 1,
+        "evolutions": "",
+        "baseHP": 90,
+        "baseATK": 90,
+        "baseDEF": 85,
+        "baseSp.ATK": 125,
+        "baseSp.Def": 90,
+        "baseSPD": 100,
+        "isLegendary": true,
+        "isStarter": false,
+        "regions": [
+            "Kanto"
+        ],
+        "number": "#145",
+        "abilities": [
+            "Pressure",
+            "Static"
+        ]
+    },
+    {
+        "name": "Moltres",
+        "type": [
+            "Fire",
+            "Flying"
+        ],
+        "gen": 1,
+        "desc": "Known as the legendary bird of fire. Every flap of its wings creates a dazzling flash of flames.",
+        "evolution": 1,
+        "evolutions": "",
+        "baseHP": 90,
+        "baseATK": 100,
+        "baseDEF": 90,
+        "baseSp.ATK": 125,
+        "baseSp.Def": 85,
+        "baseSPD": 90,
+        "isLegendary": true,
+        "isStarter": false,
+        "regions": [
+            "Kanto"
+        ],
+        "number": "#146",
+        "abilities": [
+            "Pressure",
+            "Flame Body"
+        ]
+    },
+    {
+        "name": "Dratini",
+        "type": "Dragon",
+        "gen": 1,
+        "desc": "Long considered a mythical Pokémon until recently when a small colony was found living underwater.",
+        "evolution": 1,
+        "evolutions": [
+            "Dratini",
+            "Dragonair",
+            "Dragonite"
+        ],
+        "baseHP": 41,
+        "baseATK": 64,
+        "baseDEF": 45,
+        "baseSp.ATK": 50,
+        "baseSp.Def": 50,
+        "baseSPD": 50,
+        "isLegendary": false,
+        "isStarter": false,
+        "regions": [
+            "Kanto"
+        ],
+        "number": "#147",
+        "abilities": [
+            "Shed Skin",
+            "Marvel Scale"
+        ]
+    },
+    {
+        "name": "Dragonair",
+        "type": "Dragon",
+        "gen": 1,
+        "desc": "A mystical Pokémon that exudes a gentle aura. Has the ability to change climate conditions.",
+        "evolution": 2,
+        "evolutions": [
+            "Dratini",
+            "Dragonair",
+            "Dragonite"
+        ],
+        "baseHP": 61,
+        "baseATK": 84,
+        "baseDEF": 65,
+        "baseSp.ATK": 70,
+        "baseSp.Def": 70,
+        "baseSPD": 70,
+        "isLegendary": false,
+        "isStarter": false,
+        "regions": [
+            "Kanto"
+        ],
+        "number": "#148",
+        "abilities": [
+            "Shed Skin",
+            "Marvel Scale"
+        ]
+    },
+    {
+        "name": "Dragonite",
+        "type": [
+            "Dragon",
+            "Flying"
+        ],
+        "gen": 1,
+        "desc": "An extremely rarely seen marine Pokémon. Its intelligence is said to match that of humans.",
+        "evolution": 3,
+        "evolutions": [
+            "Dratini",
+            "Dragonair",
+            "Dragonite"
+        ],
+        "baseHP": 91,
+        "baseATK": 134,
+        "baseDEF": 95,
+        "baseSp.ATK": 100,
+        "baseSp.Def": 100,
+        "baseSPD": 80,
+        "isLegendary": false,
+        "isStarter": false,
+        "regions": [
+            "Kanto"
+        ],
+        "number": "#149",
+        "abilities": [
+            "Inner Focus",
+            "Multiscale"
+        ]
+    },
+    {
+        "name": "Mewtwo",
+        "type": "Psychic",
+        "gen": 1,
+        "desc": "It was created by a scientist after years of horrific gene splicing and DNA engineering experiments",
+        "evolution": 1,
+        "evolutions": "",
+        "baseHP": 106,
+        "baseATK": 110,
+        "baseDEF": 90,
+        "baseSp.ATK": 154,
+        "baseSp.Def": 90,
+        "baseSPD": 130,
+        "isLegendary": true,
+        "isStarter": false,
+        "regions": [
+            "Kanto"
+        ],
+        "number": "#150",
+        "abilities": [
+            "Pressure",
+            "Unnerve"
+        ]
+    },
+    {
+        "name": "Mew",
+        "type": "Psychic",
+        "gen": 1,
+        "desc": "So rare that it is still said to be a mirage by many experts. Only a few people have seen it worldwide.",
+        "evolution": 1,
+        "evolutions": "",
+        "baseHP": 100,
+        "baseATK": 100,
+        "baseDEF": 100,
+        "baseSp.ATK": 100,
+        "baseSp.Def": 100,
+        "baseSPD": 100,
+        "isLegendary": false,
+        "isStarter": false,
+        "regions": [
+            "Kanto"
+        ],
+        "number": "#151",
+        "abilities": [
+            "Sychronize"
+        ]
+    }
+]

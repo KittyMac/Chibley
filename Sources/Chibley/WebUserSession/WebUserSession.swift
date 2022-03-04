@@ -4,22 +4,25 @@ import Picaroon
 import Pamphlet
 import Hitch
 import Sextant
+import Spanker
 
-struct QueryRequest: Codable {
-    let json: String
-    let path: String
-}
+let allPokemon: JsonElement = Spanker.parse(halfhitch: HalfHitch(string: Pamphlet.Private.PokemonJson()))!
 
-public class WebUserSession: UserSession {
-    
+public class WebUserSession: UserServiceableSession {
+
     public required init() {
         super.init()
         unsafePriority = 99
+
+        beAdd(service: PokemonService())
     }
 
-    required init(cookieSessionUUID: Hitch?, javascriptSessionUUID: Hitch?) {
+    required init(cookieSessionUUID: Hitch?,
+                  javascriptSessionUUID: Hitch?) {
         super.init(cookieSessionUUID: cookieSessionUUID, javascriptSessionUUID: javascriptSessionUUID)
         unsafePriority = 99
+
+        beAdd(service: PokemonService())
     }
 
     public override func safeHandleRequest(connection: AnyConnection,

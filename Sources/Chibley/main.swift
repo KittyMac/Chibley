@@ -3,9 +3,9 @@ import ArgumentParser
 
 let httpPort: Int32 = 8080
 
-struct PICAROONTEMPLATECLI: ParsableCommand {
+struct ChibleyCLI: ParsableCommand {
     static var configuration = CommandConfiguration(
-        abstract: "PICAROONTEMPLATE",
+        abstract: "Chibley",
         subcommands: [Http.self],
         defaultSubcommand: Http.self)
 
@@ -16,10 +16,10 @@ struct PICAROONTEMPLATECLI: ParsableCommand {
         var address: String = "0.0.0.0"
 
         mutating func run() throws {
-            PICAROONTEMPLATE.http(address, httpPort)
+            Chibley.http(address, httpPort)
         }
     }
 
 }
 
-PICAROONTEMPLATECLI.main()
+ChibleyCLI.main()

@@ -9,8 +9,8 @@ if [ "$(uname)" == "Darwin" ]; then
     set -e
         
     # Copy Endaevour resources
-    #rsync -av --delete ../.build/checkouts/Endeavour/dist/private/endeavour ../Resources/private
-    #rsync -av --delete ../.build/checkouts/Endeavour/dist/public/endeavour ../Resources/public
+    rsync -av --delete ../.build/checkouts/Endeavour/dist/private/endeavour ../Resources/private
+    rsync -av --delete ../.build/checkouts/Endeavour/dist/public/endeavour ../Resources/public
     
     rsync -av --delete ../.build/checkouts/Figurehead/dist/private/figurehead ../Resources/private
     #rsync -av --delete ../.build/checkouts/Figurehead/dist/public/figurehead ../Resources/public

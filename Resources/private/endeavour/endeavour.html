@@ -1,0 +1,2 @@
+#define PAMPHLET_PREPROCESSOR
+

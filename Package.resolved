@@ -11,6 +11,15 @@
         }
       },
       {
+        "package": "Endeavour",
+        "repositoryURL": "https://github.com/KittyMac/Endeavour.git",
+        "state": {
+          "branch": "main",
+          "revision": "956d19345efaa7207a2042b173e1ab9318716f51",
+          "version": null
+        }
+      },
+      {
         "package": "Figurehead",
         "repositoryURL": "https://github.com/KittyMac/Figurehead.git",
         "state": {

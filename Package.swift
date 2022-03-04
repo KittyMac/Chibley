@@ -2,15 +2,16 @@
 import PackageDescription
 
 let package = Package(
-    name: "PICAROONTEMPLATE",
+    name: "Chibley",
     platforms: [
         .macOS(.v10_15), .iOS(.v9)
     ],
     products: [
-        .executable(name: "PICAROONTEMPLATE", targets: ["PICAROONTEMPLATE"]),
+        .executable(name: "Chibley", targets: ["Chibley"]),
     ],
     dependencies: [
         .package(url: "https://github.com/KittyMac/Figurehead.git", .branch("main")),
+        .package(url: "https://github.com/KittyMac/Endeavour.git", .branch("main")),
 		.package(url: "https://github.com/KittyMac/Flynn.git", .upToNextMinor(from: "0.2.0")),
 		.package(url: "https://github.com/KittyMac/Picaroon.git", .upToNextMinor(from: "0.3.0")),
         .package(url: "https://github.com/KittyMac/Sextant.git", .upToNextMinor(from: "0.4.0")),
@@ -22,8 +23,9 @@ let package = Package(
     ],
     targets: [
         .target(
-            name: "PICAROONTEMPLATE",
+            name: "Chibley",
             dependencies: [
+                "Endeavour",
                 "Flynn",
                 "Sextant",
                 "Hitch",
@@ -37,9 +39,9 @@ let package = Package(
             name: "Pamphlet"
         ),
         .testTarget(
-            name: "PICAROONTEMPLATETests",
+            name: "ChibleyTests",
             dependencies: [
-                "PICAROONTEMPLATE"
+                "Chibley"
             ],
             exclude: [
                 "Resources"

@@ -51,7 +51,7 @@ func handleStaticRequest(_ httpRequest: HttpRequest) -> HttpResponse? {
     return nil
 }
 
-public enum PICAROONTEMPLATE {
+public enum Chibley {
 
     public static func http(_ address: String,
                             _ httpPort: Int32) {
@@ -60,6 +60,7 @@ public enum PICAROONTEMPLATE {
 
         let config = ServerConfig(address: address,
                                   port: Int(httpPort),
+                                  sessionPer: .browser,
                                   requestTimeout: 30.0,
                                   maxRequestInBytes: 65536)
 
