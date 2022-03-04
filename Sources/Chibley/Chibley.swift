@@ -60,7 +60,7 @@ public enum Chibley {
 
         let config = ServerConfig(address: address,
                                   port: Int(httpPort),
-                                  sessionPer: .browser,
+                                  sessionPer: .api,
                                   requestTimeout: 30.0,
                                   maxRequestInBytes: 65536)
 

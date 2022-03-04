@@ -60,8 +60,8 @@
         "repositoryURL": "https://github.com/KittyMac/Picaroon.git",
         "state": {
           "branch": null,
-          "revision": "5236b4f0dd7ca8e55872b39870343e20ab40e4e2",
-          "version": "0.3.4"
+          "revision": "b73cefba224977f926488e3307cb2723de33cf44",
+          "version": "0.3.6"
         }
       },
       {
@@ -78,8 +78,8 @@
         "repositoryURL": "https://github.com/KittyMac/Spanker.git",
         "state": {
           "branch": null,
-          "revision": "ee2cf47aef376a8a50e79e1d4c4f9993f1fdf6dd",
-          "version": "0.2.6"
+          "revision": "9fc38725f97e36ab065d2cf9be3304f8953509a2",
+          "version": "0.2.8"
         }
       },
       {
