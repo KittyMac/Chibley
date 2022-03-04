@@ -1,0 +1,110 @@
+#define PAMPHLET_PREPROCESSOR
+
+<style>
+    :root {
+        --fh-link: rgba(55, 64, 255);
+                
+        --fh-fclear: rgba(255,255,255,0);
+        --fh-fwhite: rgba(255,255,255,1);
+        --fh-fdarkgrey: rgba(100,100,100,1);
+        --fh-fgrey: rgba(200,200,200,1);
+        --fh-flightgrey: rgba(242,242,242,1);
+        --fh-fblack: rgba(83,84,87,1);
+        --fh-fred: rgba(255, 0, 0, 1);
+        --fh-fgreen: rgba(0, 255, 0, 1);
+        --fh-fblue: rgba(0, 0, 255, 1);
+        --fh-fcyan: rgba(0, 255, 255, 1);
+        --fh-fyellow: rgba(255, 255, 0, 1);
+        
+        --fh-clear: rgba(255,255,255,0);
+        --fh-white: rgba(255,255,255,1);
+        --fh-darkgrey: rgba(100,100,100,1);
+        --fh-grey: rgba(200,200,200,1);
+        --fh-lightgrey: rgba(242,242,242,1);
+        --fh-black: rgba(83,84,87,1);
+        --fh-red: rgba(255, 0, 0, 1);
+        --fh-green: rgba(0, 255, 0, 1);
+        --fh-blue: rgba(0, 0, 255, 1);
+        --fh-cyan: rgba(0, 255, 255, 1);
+        --fh-yellow: rgba(255, 255, 0, 1);
+        
+        --fh-dclear: rgba(255,255,255,0.4);
+        --fh-dwhite: rgba(255,255,255,0.4);
+        --fh-ddarkgrey: rgba(100,100,100,0.4);
+        --fh-dgrey: rgba(200,200,200,0.4);
+        --fh-dlightgrey: rgba(242,242,242,0.4);
+        --fh-dblack: rgba(83,84,87,0.4);
+        --fh-dred: rgba(255, 0, 0, 0.4);
+        --fh-dgreen: rgba(0, 255, 0, 0.4);
+        --fh-dblue: rgba(0, 0, 255, 0.4);
+        --fh-dcyan: rgba(0, 255, 255, 0.4);
+        --fh-dyellow: rgba(255, 255, 0, 0.4);
+        
+        --fh-error-red: rgba(208,116,112,1);
+        
+        --fh-main-background: rgba(251,253,254,1);
+        
+        --fh-std-shadow: rgba(0,0,0,0.1);
+        
+        --fh-btn-background: rgba(66,147,247,1);
+        --fh-btn-highlight: rgba(48,107,179,1);
+        
+        --fh-item-outline: rgba(200,200,200,1);
+    }
+    
+    @media (prefers-color-scheme: dark) {
+        :root {
+            --fh-link: rgba(157, 162, 255);
+            
+            --fh-fclear: rgba(0,0,0,0);
+            --fh-fwhite: rgba(65,65,65,1);
+            --fh-fdarkgrey: rgba(155,155,155,1);
+            --fh-fgrey: rgba(55,55,55,1);
+            --fh-flightgrey: rgba(32,32,32,1);
+            --fh-fblack: rgba(172,171,168,1);
+            --fh-fred: rgba(255, 0, 0, 1);
+            --fh-fgreen: rgba(0, 255, 0, 1);
+            --fh-fblue: rgba(0, 0, 255, 1);
+            --fh-fcyan: rgba(0, 255, 255, 1);
+            --fh-fyellow: rgba(255, 255, 0, 1);
+        
+            --fh-clear: rgba(0,0,0,0);
+            --fh-white: rgba(55,55,55,1);
+            --fh-darkgrey: rgba(155,155,155,1);
+            --fh-grey: rgba(55,55,55,1);
+            --fh-lightgrey: rgba(32,32,32,1);
+            --fh-black: rgba(172,171,168,1);
+            --fh-red: rgba(255, 0, 0, 1);
+            --fh-green: rgba(0, 255, 0, 1);
+            --fh-blue: rgba(0, 0, 255, 1);
+            --fh-cyan: rgba(0, 255, 255, 1);
+            --fh-yellow: rgba(255, 255, 0, 1);
+        
+            --fh-dclear: rgba(0,0,0,0);
+            --fh-dwhite: rgba(0,0,0,1);
+            --fh-ddarkgrey: rgba(155,155,155,1);
+            --fh-dgrey: rgba(55,55,55,1);
+            --fh-dlightgrey: rgba(32,32,32,1);
+            --fh-dblack: rgba(172,171,168,1);
+            --fh-dred: rgba(255, 0, 0, 0.4);
+            --fh-dgreen: rgba(0, 255, 0, 0.4);
+            --fh-dblue: rgba(0, 0, 255, 0.4);
+            --fh-dcyan: rgba(0, 255, 255, 0.4);
+            --fh-dyellow: rgba(255, 255, 0, 0.4);
+        
+            --fh-error-red: rgba(208,116,112,1);
+            
+            --fh-main-background: rgba(4,2,1,1);
+            
+            --fh-std-shadow: rgba(70,98,136,0.3);
+            
+            --fh-btn-background: rgba(66,147,247,1);
+            --fh-btn-highlight: rgba(48,107,179,1);
+            
+            --fh-item-outline: rgba(85,85,85,1);
+        }
+    }
+
+    @media (prefers-color-scheme: light) { }
+    
+</style>

@@ -1,0 +1,62 @@
+#define PAMPHLET_PREPROCESSOR
+
+#include <./figurehead/figurehead.html>
+
+<!doctype html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="viewport" content="user-scalable=no,width=device-width,initial-scale=1.0,viewport-fit=cover">
+    <title>PicaroonTemplate</title>
+    <link rel="manifest" href="/public/manifest.json">
+    <link rel="apple-touch-icon" sizes="192x192" href="/public/icon192.png">
+    <link rel="apple-touch-icon" sizes="512x512" href="/public/icon512.png">
+    
+    #include <./shell.fonts.html>
+    #include <./figurehead/figurehead.style>
+    
+    <script>
+        // Required by Picaroon to hook up server-side actor with user to maintain state across connections
+        if (sessionStorage.getItem("Session-Id") == undefined) {
+            let sessionUUID = document.cookie.match(/SESSION_UUID=([A-Z0-9\-]*);?/);
+            if (sessionUUID != undefined && sessionUUID.length > 1) {
+                sessionStorage.setItem("Session-Id", sessionUUID[1]);
+            }
+        }
+    </script>
+        
+    <script src="script.combined.js"></script>
+    
+    <style>
+        body {
+            MAIN_BACKGROUND();
+            VSCROLLING();
+            -webkit-text-size-adjust: none;
+        }
+        *:focus {
+            outline: none;
+        }
+    </style>
+    
+</head>
+<body>
+	<noscript>
+		<div style="position:fixed;display:flex;justify-content:center;align-items:center;width:100%;height:100%;padding:0px;margin:0px;overflow:hidden;">
+			<h1>This app requires Javascript to be enabled.</h1>
+		</div>
+	</noscript>
+            
+    ELEMENT(GROW()START()CLIPS()VSTACK(),
+        GITHUB("https://github.com/KittyMac/PicaroonTemplate",#535457)
+    )
+        
+    ID_ELEMENT(alertsContainer,FULLSCREEN()ABSOLUTE()BACKGROUND(0,0,0,0.5)CENTER()CLIPS()HIDE(),)
+        
+    <script>
+        InitFigurehead();
+        alert("Hello World!");
+    </script>
+    
+</body>
+</html>

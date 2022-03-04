@@ -1,0 +1,7 @@
+node_modules
+xcuserdata
+build
+.build
+.swiftpm
+*.psd
+*.xcodeproj
