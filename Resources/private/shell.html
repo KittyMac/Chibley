@@ -14,9 +14,9 @@ ELEMENT(LATO(1.2)FBLACK()MARGIN(1,0,0.5,0),CONTENT)
     <meta name="apple-mobile-web-app-capable" content="yes">
     <meta name="viewport" content="user-scalable=no,width=device-width,initial-scale=1.0,viewport-fit=cover">
     <title>Chibley</title>
-    <link rel="manifest" href="/public/manifest.json">
-    <link rel="apple-touch-icon" sizes="192x192" href="/public/icon192.png">
-    <link rel="apple-touch-icon" sizes="512x512" href="/public/icon512.png">
+    <link rel="manifest" href="public/manifest.json">
+    <link rel="apple-touch-icon" sizes="192x192" href="public/icon192.png">
+    <link rel="apple-touch-icon" sizes="512x512" href="public/icon512.png">
     
     #include <./shell.fonts.html>
     #include <./figurehead/figurehead.style>
@@ -60,7 +60,7 @@ ELEMENT(LATO(1.2)FBLACK()MARGIN(1,0,0.5,0),CONTENT)
         
         ELEMENT(HSTACK()MINHEIGHT(5)PCTWIDTH(100)MARGIN(1,0,2,0),
             LINK("https://github.com/KittyMac/Chibley",
-                IMAGE(SIZEALL(5,5)MARGIN(0,1,1,1),/public/icon192.png)
+                IMAGE(SIZEALL(5,5)MARGIN(0,1,1,1),public/icon192.png)
             )
             ELEMENT(VSTACK()GROW()MINHEIGHT(5),
                 HEADER2(Chibley)
@@ -122,7 +122,7 @@ ELEMENT(LATO(1.2)FBLACK()MARGIN(1,0,0.5,0),CONTENT)
     <script>
         InitFigurehead();
         
-        let url = "http://www.swift-linux.com/Chibley"
+        let url = "https://www.swift-linux.com/chibley/"
         
         let code0 =
 `
@@ -229,7 +229,7 @@ Content-Length:61261
         let code9 =
 `
 // Example session flow played out using curl. Note that in the result of the first verbose
-// call using curl you need to copy/paste the correct Session-Id to subsequent calls.
+// call using curl you need to copy/paste the correct Session-Id to subsequent calls (exmaple Session-Id: 552B56E8-4DAF-466B-9611-1A9BF13A82F1)
 
 // Grab list of all pokemon starting with the letter B. Copy/Paste the Session-Id from the results of this call and replace them in the rest
 curl -v -X POST -H "Content-Type: application/json" -d '{"service":"PokemonService","command":"list","path":"$..[?(@.name =~ /^B/i)]"}' ${url}

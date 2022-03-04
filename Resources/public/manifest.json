@@ -1,22 +1,22 @@
 {
-    "short_name": "Picaroon Template",
-    "name": "Picaroon Template",
-    "description": "Template to create web apps using Picaroon and other tools",
+    "short_name": "Chibley",
+    "name": "Chibley",
+    "description": "Simple API for coding practice",
     "icons": [
         {
-            "src": "/public/icon192.png",
+            "src": "public/icon192.png",
             "type": "image/png",
             "sizes": "192x192"
         },
         {
-            "src": "/public/icon512.png",
+            "src": "public/icon512.png",
             "type": "image/png",
             "sizes": "512x512"
         }
     ],
-    "start_url": "/",
+    "start_url": "/chibley/",
     "background_color": "#000000",
     "display": "standalone",
-    "scope": "/",
+    "scope": "/chibley/",
     "theme_color": "#505c83"
 }

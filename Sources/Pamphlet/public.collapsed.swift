@@ -73,8 +73,8 @@ public extension Pamphlet.Public {
 }
 
 private let uncompressedManifestJson: StaticString = ###"""
-{"short_name":"Picaroon Template","name":"Picaroon Template","description":"Template to create web apps using Picaroon and other tools","icons":[{"src":"/public/icon192.png","type":"image/png","sizes":"192x192"},{"src":"/public/icon512.png","type":"image/png","sizes":"512x512"}],"start_url":"/","background_color":"#000000","display":"standalone","scope":"/","theme_color":"#505c83"}
+{"short_name":"Chibley","name":"Chibley","description":"Simple API for coding practice","icons":[{"src":"public/icon192.png","type":"image/png","sizes":"192x192"},{"src":"public/icon512.png","type":"image/png","sizes":"512x512"}],"start_url":"/chibley/","background_color":"#000000","display":"standalone","scope":"/chibley/","theme_color":"#505c83"}
 
 """###
-private let compressedManifestJson = Data(base64Encoded:"H4sIAAAAAAACA42QwWrDMAyG73sKo17L0q4Etj7FDruNUhxFpGaOZCyHtSt598ot3S5jzCAwv77/t6Uz6EFy2bMfCbbwGtBnEXZvNKboC8ES/mj1pJhDKkHYiHvDFXGYqd4+qXM+JXWTBh7cd4bn3kk5UDZWolpUQGGF7fsZNKOFNWnqYsCm6uuXp8fEg1HllOpfwugHam6Shi8yIxh0tIJ5+VtEu/5HhEFHK5h3phVva5lyrEHGdB4/hiwT93uUKNnkxep66h6C2uQn08zGvY/CdT2Kcn2r+m3YkX6s7arF5w3MDxcJ6dPRgQEAAA==")!
+private let compressedManifestJson = Data(base64Encoded:"H4sIAAAAAAACA42PQYvCQAyF7/6KEq9idaWwelv2tLcFj4vINI1tcDoZZqZglf53Uz0orAcDuXx574V3gdhISHtnWoINfDdcWuphBv9ARRED+8TilG+59Zayr9+f7CAhQ6nY1ZkPBhMjqZxRXITN3wViQDX4rrSM+YiX64+5d7WKUu/HJ9yamvI7inwm9YGKTrowzF4kFMs3ElR00oVhpywZLdkFqzzHe6dctaXBYx2kc9UexUrQ83Rxm7ExR29Nr0ztrjJW3Ngsotx+Puekhlp6RBSLAj9XMEyu1jaTQF8BAAA=")!
 

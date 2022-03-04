@@ -6,7 +6,12 @@ import Hitch
 import Sextant
 import Spanker
 
-let allPokemon: JsonElement = Spanker.parse(halfhitch: HalfHitch(string: Pamphlet.Private.PokemonJson()))!
+#if DEBUG
+let allPokemonJson = HalfHitch(string: Pamphlet.Private.PokemonJson())
+#else
+let allPokemonJson = HalfHitch(stringLiteral: Pamphlet.Private.PokemonJson())
+#endif
+let allPokemon: JsonElement = Spanker.parse(halfhitch: allPokemonJson)!
 
 public class WebUserSession: UserServiceableSession {
 

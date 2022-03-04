@@ -3,6 +3,7 @@ import ArgumentParser
 import Picaroon
 import Flynn
 import Pamphlet
+import Hitch
 
 #if DEBUG
 let cacheMaxAge = 5
@@ -10,7 +11,9 @@ let cacheMaxAge = 5
 let cacheMaxAge = 3600
 #endif
 
-func handleStaticRequest(_ httpRequest: HttpRequest) -> HttpResponse? {
+func handleStaticRequest(config: ServerConfig,
+                         httpRequest: HttpRequest) -> HttpResponse? {
+
     if let url = httpRequest.url {
 
         if url.contains("private/") {
@@ -22,7 +25,6 @@ func handleStaticRequest(_ httpRequest: HttpRequest) -> HttpResponse? {
                 return HttpStaticResponse.internalServerError
             }
 
-            // We only ever allow script.combined.js to be downloaded, and it is a combination of scripts.
             if url.ends(with: "script.combined.js") {
                 let payload: Payloadable = httpRequest.supportsGzip ? Pamphlet.Private.ScriptCombinedJsGzip() : Pamphlet.Private.ScriptCombinedJs()
                 return HttpResponse(javascript: payload)
@@ -47,6 +49,14 @@ func handleStaticRequest(_ httpRequest: HttpRequest) -> HttpResponse? {
                                     cacheMaxAge: cacheMaxAge)
             }
         }
+
+        // In all other scenarios, we have no such thing as subdirectories. If someone is requesting
+        // something from somewhere other than /, redirect them back to /
+        // if url != config.basePath.halfhitch() {
+        //    let baseLocation = HalfHitch(string: "Location: \(config.basePath)")
+        //    return HttpResponse(status: .movedPermanently, type: .txt, headers: [baseLocation])
+        // }
+
     }
     return nil
 }
@@ -60,6 +70,7 @@ public enum Chibley {
 
         let config = ServerConfig(address: address,
                                   port: Int(httpPort),
+                                  basePath: "/chibley/",
                                   sessionPer: .api,
                                   requestTimeout: 30.0,
                                   maxRequestInBytes: 65536)

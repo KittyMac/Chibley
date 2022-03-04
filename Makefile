@@ -47,7 +47,7 @@ docker-service-log:
 	-ssh rjbowli@192.168.1.200 "docker service logs --follow chibley-http"
 
 docker-service-start:
-	-ssh rjbowli@192.168.1.200 "docker service create --name chibley-http --constraint 'node.hostname==cluster200' --publish published=9080,target=8080,mode=host --with-registry-auth --mode global kittymac/chibley ./chibley http"
+	-ssh rjbowli@192.168.1.200 "docker service create --name chibley-http --constraint 'node.labels.sextant == true' --publish published=9081,target=8080,mode=host --with-registry-auth --mode global kittymac/chibley ./Chibley http"
 	
 docker-service-stop:
 	-ssh rjbowli@192.168.1.200 "docker service rm chibley-http"
